@@ -1,0 +1,78 @@
+h3{/*and also we use comma for more*/
+    color: hsl(133, 69%, 25%);
+    text-decoration: underline;
+    /* text-decoration: dotted; */
+}
+#Dhal{
+    color: rgb(236, 76, 186)!important;
+}
+div a{
+    /*div kulla ulla links*/
+    color: rgb(44, 126, 147);
+}
+/* div>p{ */
+    /*div kulla ulla child paragraph*/
+/* } */
+/* h1+h2{
+    /* adjacent */
+/* } */ */
+/* body */
+/* body{
+    background-color: rgb(223, 142, 36);
+} */
+body{
+    font-size: 12px;
+    font-size: 100%;
+    font-size: 1.5em;
+    ;
+}
+*{
+    color:rgb(179, 84, 16);
+}
+/* #id  */
+/* /* .clas */
+#shop{
+    color: rgb(31, 119, 196);
+}
+h1{
+    background-color: rgb(179, 255, 0,.6);
+    text-align: center;
+    word-spacing: .05em;
+    letter-spacing: .2em;
+    text-transform: capitalize;
+}
+body{
+    background-color: antiquewhite;
+}
+#Dhals{
+    color: rgba(31, 162, 162, 0.789)!important;
+    font-style:italic;
+}
+#all
+{
+    vertical-align: middle;
+}
+p::first-letter{
+    color: rgb(11, 15, 14);
+    font-size: larger;
+}
+a:link
+{
+
+    color: blue;
+}
+a:visited{
+    color: black;
+}
+a:hover
+{
+    color: azure;
+}
+a:active{
+    color: aqua;
+}
+#fo
+{
+    align-self: focus;          
+}
+/* p[~id,claSS^='m,]{} $=suffix *=substring */
