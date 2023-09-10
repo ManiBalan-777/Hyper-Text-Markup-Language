@@ -1,0 +1,148 @@
+
+        .firstback{
+            background-image: url("https://staticg.sportskeeda.com/editor/2022/04/c6f1c-16507508987185-1920.jpg");
+            background-repeat: no-repeat;
+            width:1350px;
+            height:700px;
+        }
+        .img5{
+            /* position:fixed; */
+            width:1350px;
+            height:700px;
+        }
+        .list{            
+            margin-left:400px;
+            margin-top:100px;
+        }
+        li{
+            display:inline-block;
+            color: white;
+            margin:10px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-style:bold; 
+        }
+        .implace{
+            font-size:6em;
+            font-weight: 600;
+            color:rgb(13, 12, 12);
+            font-family:'Gill Sans', 'Gill Sans MT';    
+            text-align:center;
+            margin-left:100px;
+        }
+        
+        .para1{
+            color:white;
+            font-size:1.5em;
+            margin-left:300px;
+            margin-top:5px;
+
+        }
+        .p{
+            color:rgb(15, 15, 15);
+            font-size:2em;
+            margin-left:300px;
+            margin-top:5px;
+            text-align: center;
+
+        }
+        .pa{
+            margin-left:480px;
+            color:white;
+            font-size:1.5em;
+            margin-top:-20px;
+        }
+        .login{
+            border: 2px rgb(234, 40, 11);
+            background-color: rgb(72, 175, 35);
+            border-style: inset;
+            border-radius: 200px;
+            margin-left:1200px;
+            margin-top:-70px;
+            padding:10px 20px;
+            text-align:center;
+        }
+        .logcolor{
+            color:black;
+            
+                        font-size:large;
+        }
+        .button2{
+            margin-left:350px;
+            border:2px black;
+            border-style:inset;
+            border-radius:35px;
+            margin-bottom:10px;
+            padding:15px 60px;
+        }
+        .button3{
+            margin-left:80px;
+            border:2px black;
+            /* border-style:inset; */
+            border-radius:35px; 
+            margin-bottom: 10px;
+            padding:20px 60px;
+            background-color: black;
+        }
+        .but3{
+            color:rgba(255, 255, 255, 0.896);
+            font-size:large;
+        }
+        .para2{
+            margin-top:-400px;
+            margin-left:750px;
+            font-size:4em;
+            color :solid grey;     
+            font-weight:bolder;
+        }
+        .para3{
+            /* margin-left:750px; */
+            padding-left:750px;
+            color:black;
+            letter-spacing:2px;
+            font-size:1.5em;
+            margin-top:-10px;
+            font-style:unset;
+        }
+        .img3{
+          
+            
+            margin-top:50px;
+            background-color:rgba(253, 251, 252, 0.948);
+            padding-left:700px;
+            font-size:4em;
+            font-weight:bolder;
+        }
+        .para4{
+            margin-top:-400px;
+            margin-left: 120px;
+            font-size:3em;
+            font-weight:bolder;
+        }
+        .para5{
+            margin-left:120px;
+            color:black;
+            letter-spacing:2px;
+            font-size:1.5em;
+            margin-top:-10px;
+            font-style:unset;
+        }
+        .img5{
+            margin-top:50px;
+            margin-left:-50px;
+        }
+        a:hover{
+           
+            text-decoration: underline;
+        }
+        
+   .last{
+   width: 1400px;
+   height: 700px;
+   border: 15px;
+   padding: 50px;
+   margin: 20px;
+   background-color: black;
+   }
