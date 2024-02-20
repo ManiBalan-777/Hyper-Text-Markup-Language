@@ -6,6 +6,7 @@
 .navthan{
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
 }
 /* .slideshow img{
   display: none;
@@ -44,4 +45,12 @@
         background-image: url(assets/collectoroffice.jpeg);
 
     }
+}
+#below{
+    border: 2px solid rgb(126, 123, 123);
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+}
+#basic{
+    font-size: 16px;
 }
