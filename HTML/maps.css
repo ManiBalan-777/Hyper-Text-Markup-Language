@@ -23,17 +23,52 @@
 .slideshow img{
     animation:slide 1s ease-in-out infinite;
 } */
+.animi{
+    width: 1300px;
+    height: 400px;
+    animation-name:pudu;
+    animation-iteration-count: infinite;
+    animation-duration: 10s ;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+
+@keyframes pudu{
+    0%{
+        background-image: url(assets/chithanavasal1.jfif);
+
+    }
+  
+    
+    50%{
+    background-image: url(assets/manamelkudi.webp);
+    background-repeat: no-repeat;
+    width: 1300px;
+
+    }
+    60%{
+        background-image: url(assets/Fort_of_thirumayam.jpg);
+        background-repeat: no-repeat;
+    }
+  
+    100%{
+        background-image: url(assets/collectoroffice.jpeg);
+        background-repeat: no-repeat;
+
+    }
+}
 .slideshow{
     width: 1300px;
     height: 400px;
-    animation-name: no;
+    animation-name: than;
     animation-iteration-count: infinite;
     animation-duration: 4.2s ;
     animation-direction: alternate;
     animation-fill-mode: both;
 
 }
-@keyframes no{
+@keyframes than{
     0%{
         background-image: url(assets/kallanai.jpg);
     }
@@ -46,6 +81,7 @@
 
     }
 }
+
 #below{
     border: 2px solid rgb(126, 123, 123);
     background-color: rgb(10, 10, 10);
