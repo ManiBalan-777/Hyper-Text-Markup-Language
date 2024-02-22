@@ -4,9 +4,11 @@
    border-color: black;
 }
 .navthan{
-    font-size: 18px;
+    width: 885px;
+    font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 2px solid black;
+   
 }
 /* .slideshow img{
   display: none;
@@ -58,35 +60,130 @@
 
     }
 }
+.thanjai{
+    width: 885px;
+    height: 400px;
+    animation-name: tha;
+    
+    animation-iteration-count: infinite;
+    animation-duration: 3s ;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+@keyframes tha{
+    0%{
+        background-image: url(assets/thanjavurtemple.jpg);
+    }
+    50%{
+        
+        background-image: url(assets/kallanai.jpg);
+    }
+    
+    100%{
+       
+        background-image: url(assets/thanjavurtemple2.jfif);
+        background-repeat: no-repeat;
+        background-size: 885px;
+
+    }
+}
 .slideshow{
     width: 1300px;
     height: 400px;
-    animation-name: than;
+   
+    animation-name: nagap;
     animation-iteration-count: infinite;
     animation-duration: 4.2s ;
     animation-direction: alternate;
     animation-fill-mode: both;
 
 }
-@keyframes than{
+@keyframes nagap{
     0%{
-        background-image: url(assets/kallanai.jpg);
+        background-image: url(assets/kodiyakkarai.jpg);
     }
     50%{
-    background-image: url(assets/thanjavurtemple.jpg);
+    background-image: url(assets/mangrove\ forest.jpg);
 
     }
     100%{
-        background-image: url(assets/collectoroffice.jpeg);
+        background-image: url(assets/marine\ fishing.jpg);
+
+    }
+}
+.slideshow{
+    width: 1300px;
+    height: 400px;
+
+    animation-name: tiru;
+  
+    animation-iteration-count: infinite;
+    animation-duration: 4.2s ;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+@keyframes tiru{
+    0%{
+        background-image: url(assets/iit.jpg);
+    }
+    50%{
+    background-image: url(assets/rock\ fort.jpg);
+
+    }
+    100%{
+        background-image: url(assets/srirangams.jpg);
+
+    }
+}
+.slideshow{
+    width: 1300px;
+    height: 400px;
+    
+    animation-name: ari;
+    
+    animation-iteration-count: infinite;
+    animation-duration: 4.2s ;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+
+@keyframes ari{
+    0%{
+        background-image: url(assets/Karaivetti\ Bird\ Sanctuary.jpeg);
+    }
+    50%{
+    background-image: url(assets/gangaikonda.jpeg);
+
+    }
+    100%{
+        background-image: url(assets/ARIYALUR\ collectrote.jpg);
 
     }
 }
 
+
+
 #below{
+    width: 885px;
     border: 2px solid rgb(126, 123, 123);
     background-color: rgb(10, 10, 10);
     color: aliceblue;
 }
 #basic{
     font-size: 16px;
+}
+.about{
+    width: 885px;
+    
+}
+.box{
+    width: 885px;
+    height: 400px;
+    background-color: rgb(241, 228, 222);
+}
+.bot{
+    background-color: rgb(114, 98, 98);
 }
