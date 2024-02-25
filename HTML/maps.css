@@ -3,12 +3,35 @@
    border-width: 10px;
    border-color: black;
 }
-.navthan{
+.red{
     width: 885px;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 2px solid black;
    
+}
+.red a{
+    color: red;
+    text-decoration: none;
+}
+.box h1{
+    color: black;
+}
+.box #rev{
+    color: green;
+}
+.box #develope{
+    color:rgb(21, 109, 192);
+}
+.box #lb{
+    color: red;
+}
+.box #con{
+    color: cadetblue;
+}
+.depa a{
+    color:rgb(223, 95, 21);
+    text-decoration: none;
 }
 /* .slideshow img{
   display: none;
@@ -17,7 +40,8 @@
     display: block;
 }
 @keyframes slide{
-    0%{ opacity: 0;}
+    0%
+    { opacity: 0;}
     100%{
         opacity: 1;
     }
@@ -26,39 +50,35 @@
     animation:slide 1s ease-in-out infinite;
 } */
 .animi{
-    width: 1300px;
+    width: 885px;
     height: 400px;
     animation-name:pudu;
     animation-iteration-count: infinite;
-    animation-duration: 10s ;
-    animation-direction: alternate;
+    animation-duration: 3s ;
+    /* animation-direction:alternate; */
     animation-fill-mode: both;
 
 }
 
 @keyframes pudu{
     0%{
-        background-image: url(assets/chithanavasal1.jfif);
-
-    }
-  
-    
-    50%{
-    background-image: url(assets/manamelkudi.webp);
-    background-repeat: no-repeat;
-    width: 1300px;
-
-    }
-    60%{
-        background-image: url(assets/Fort_of_thirumayam.jpg);
+        background-image: url(assets/pattukkotai\ court.jpg);
         background-repeat: no-repeat;
+        background-size: 885px;
+    }
+    50%{
+        
+        background-image: url(assets/chithanavasal2.jfif);
+        background-size: 885px;
     }
   
     100%{
-        background-image: url(assets/collectoroffice.jpeg);
+        background-image: url(assets/pudukkottai\ collectrate-district.jpg);
         background-repeat: no-repeat;
-
+        background-size: 885px;
     }
+      
+
 }
 .thanjai{
     width: 885px;
@@ -74,10 +94,12 @@
 @keyframes tha{
     0%{
         background-image: url(assets/thanjavurtemple.jpg);
+        background-size: 885px;
     }
     50%{
         
         background-image: url(assets/kallanai.jpg);
+        background-size: 885px;
     }
     
     100%{
@@ -88,7 +110,7 @@
 
     }
 }
-.slideshow{
+.naga{
     width: 1300px;
     height: 400px;
    
@@ -112,11 +134,11 @@
 
     }
 }
-.slideshow{
-    width: 1300px;
+.tiru{
+    width: 885px;
     height: 400px;
 
-    animation-name: tiru;
+    animation-name: tir;
   
     animation-iteration-count: infinite;
     animation-duration: 4.2s ;
@@ -124,7 +146,7 @@
     animation-fill-mode: both;
 
 }
-@keyframes tiru{
+@keyframes tir{
     0%{
         background-image: url(assets/iit.jpg);
     }
@@ -138,14 +160,14 @@
     }
 }
 .slideshow{
-    width: 1300px;
+    width:885px;
     height: 400px;
     
     animation-name: ari;
     
     animation-iteration-count: infinite;
-    animation-duration: 4.2s ;
-    animation-direction: alternate;
+    animation-duration: 5s ;
+    animation-direction:reverse;
     animation-fill-mode: both;
 
 }
@@ -153,14 +175,16 @@
 @keyframes ari{
     0%{
         background-image: url(assets/Karaivetti\ Bird\ Sanctuary.jpeg);
+        background-size: 885px;
     }
     50%{
     background-image: url(assets/gangaikonda.jpeg);
+    background-size: 885px;
 
     }
     100%{
         background-image: url(assets/ARIYALUR\ collectrote.jpg);
-
+        background-size: 885px;
     }
 }
 
@@ -186,4 +210,14 @@
 }
 .bot{
     background-color: rgb(114, 98, 98);
+}
+.blas{
+    margin-left: 250px;
+    margin-top: 50px;
+    border: 2px dotted black;
+    width: 500px;
+    height: 300px;
+    background-image:linear-gradient(to top,red,green,yellow
+    )
+    ;
 }

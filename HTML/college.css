@@ -4,4 +4,279 @@
     opacity: 0.75;
    
 }
+.menuicon{
    
+    
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 16px;
+    
+    
+}
+.bar{
+    width: 100%;
+    height: 4px;
+    background-color: #000;;
+}
+.one{
+    background-image: linear-gradient(to left,rgba(58, 82, 216, 0.952),rgba(155, 163, 211, 0.582));
+}
+.three{
+    border: 2px solid rgb(248, 248, 248);
+    width:100%;
+    height:400px;
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    /* animation-fill-mode: forwards;
+    
+    */
+
+}
+@keyframes img{
+    0%{
+        background-image: url(assets/Government_College_of_Engineering\,_Thanjavur..jpg);
+       background-size: cover;
+        background-position: center;
+        
+    }
+    50%{
+        background-image: url(assets/gce\ lib.jpg);
+        background-size: cover;
+        background-position: left;
+        
+    }
+    100%{
+       
+        background-image: url(assets/gce\ ground.jfif);
+        background-position:left;
+        background-size: cover;
+        
+       
+        
+    }
+}
+.two2{
+    word-spacing: 3px;
+    margin-left: 40px;
+    margin-top: -2px;
+    position: relative;
+    bottom: 16px;
+    text-decoration: none;
+}
+.two{
+   /* background-color: rgb(155, 163, 211); */
+   background-image: linear-gradient(to right,rgba(58, 82, 216, 0.952),rgba(155, 163, 211, 0.582));
+
+    border: 2px solid rgb(247, 247, 247);
+    
+    text-decoration: none;
+}
+.two input[type=text]{
+    border: 2px solid rgb(223, 169, 169);
+    width: 80px;
+} 
+.two form{
+    float: right;
+    border: 2px solid rgb(187, 21, 21);
+    color: red;
+}
+a.two22:link{
+    background-color: rgb(58, 139, 25);
+    text-decoration: none;
+    border: 2px solid rgb(100, 45, 45);
+}
+a.two22:hover{
+    text-transform: lowercase;
+    background-color:aqua;
+    color: blue;
+    cursor:grab;
+    text-decoration: none;
+}
+a.two22:visited{
+    background-color: rgba(25, 182, 156, 0.712);
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+   
+   
+}
+a.two22:active{
+    background-color: rgb(29, 243, 22);
+    color: white;
+    cursor:-webkit-grabbing;
+    text-decoration: none;
+   
+}
+.para{
+    border: 2px solid black;
+    text-align: justify;
+    text-transform:capitalize;
+    text-indent: 2px 2px;
+    
+}
+.dep{
+    text-decoration: line-through;
+    border: 2px solid rgb(61, 236, 8);
+    color: coral;
+    background-color:antiquewhite;
+   width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.bottem
+{
+    background-color: rgba(17, 28, 87, 0.877);
+}
+.a{
+    
+    border: 1px solid whitesmoke;
+    word-spacing: 15px;
+    height: 50px;
+    
+}
+.a a{
+    display:inline-flex;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration:none;
+    text-transform:capitalize;
+    
+}
+.b{
+    
+    color:aliceblue;
+    
+    border: 1px solid whitesmoke;
+    width: 100%;
+}
+.b h2{
+   
+    margin-left: 15px;
+}
+.b a{
+    display:inline-flex;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    color: thistle;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.d{
+   
+    border: 1px solid white;
+    color:aliceblue;
+    
+}
+.e{
+    border: 1px solid white;
+    color:wheat;
+}
+.e h1{
+    float:right;
+    margin-right: 900px;
+    text-align: justify;
+}
+.d d2{
+    position: relative;
+    margin-top: 5px;
+}
+.d d3{
+    position: relative;
+    margin-top: -5px;
+}
+
+.d a{
+    color: thistle;
+    text-decoration: none;
+}
+.f{
+    color:whitesmoke;
+    border: 1px solid white;
+}
+.left a{
+    text-decoration: none;
+    position: relative;
+    margin-top: 1%;
+   
+    
+}
+.csee{
+    list-style-type: none;
+    
+}
+.conta{
+    float: left;
+    display: flexbox;
+    margin-left: -32px;
+    margin-top: -170px;
+   
+}
+.dd li:nth-child(1):hover.csee{
+   display: inline;
+}
+.u3{
+    float: left;
+    display: flexbox;
+    margin-left: 3px;
+}
+.dd{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    list-style-type: none;
+}
+.td1{
+    background-color:aliceblue;
+}
+.dd a{
+    border: 2px solid white;
+    background-color: #181a7236;
+    border-style:groove;
+    
+    display: block;
+    width: 200px;
+    color: rgb(33, 19, 233);
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.dd a:hover{
+    background-color: skyblue;
+}
+.right{
+   
+    /* border:1px solid black; */
+    width: 70%;
+   
+}
+
+   
+/* a.test:link{
+    background-color: rgb(5, 5, 5);
+    color: #000;
+    cursor:-webkit-grabbing;
+}
+a.test:visited
+{
+    background-color: pink;
+    
+}
+a.test:hover{
+    background-color: lightgreen;
+}
+a.test:active{
+    background-color:bisque ;
+    color: black;
+
+} */
