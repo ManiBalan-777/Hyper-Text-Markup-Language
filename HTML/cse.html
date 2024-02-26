@@ -59,7 +59,7 @@
          </nav>
      </div>
     
-            <table border="1" width="100%" height="400px" >
+            <table border="1" width="100%" height="700px" >
                 <tr>
                     <td class="td1">
                         <div class="conta">
@@ -71,7 +71,7 @@
                                      <li><a href="#" id="a2">Vision and Mission</a></li>
                                      <li><a href="#" id="a3">PEO &PO</a></li>
                                      <li> <a href="#" id="a4">PSO</a> </li>
-                                     <li> <a href="#" id="a5">faculty</a> </li>
+                                     <li> <a href="faculty.html" onclick="loadPage('faculty.html','fram')">faculty</a> </li>
                                      <li><a href="#" id="a6">NOn teaching staff</a> </li>
                                      <li><a href="#" id="a7">facility</a></li>
                                      <li> <a href="#" id="a8">Co-Curricular Activity</a></li>
@@ -81,6 +81,7 @@
                          </div>
                     </td>
                     <!-- <td class="left" align="center" width="30%" height="400px" >
+                         onchange="location=this.value" 
                                     <a href="#" id="a1">About the Department</a> <br>
                                     <a href="#" id="a2">Vision and Mission</a> <br>
                                     <a href="#" id="a3">PEO &PO</a> <br>
@@ -90,15 +91,64 @@
                                     <a href="#" id="a7">facility</a> <br>
                                     <a href="#" id="a8">Co-Curricular Activity</a>
                                 </td> -->
-                     <td width="70%" >
-                       
-                        <div id="frame" style="height: 600px;"  > 
-                                <img src="assets/gcelab1.jfif" alt="">
+                                <!-- class="fra1" -->
+                     <td  width="70%" >
+                        <div style="width: 1000px; height: 50%;"  width="100%" height="50%">
+                            <marquee border="1" behavior="scroll" direction="left" scrollamount="10" loop="infinite">
+                                <img  width="300px" height="350px" style="" src="assets/gce CSE dept 1.jpg" alt="">
+                                <img  width="300px" height="350px" src="assets/gce class 1.jpg" alt="">
+                                <img style="background-size: cover;" width="300px" height="350px"  src="assets/gce class 2.jpg" style="background-size: cover;" alt="">
+
+                            </marquee>
+                        </div>
+                        <!-- <div class="slide-container"></div>
+                        <div class="slider">
+                           
+                            
+                             
+                                  <div class="slide">
+                                      <img src="assets/gce CSE dept 1.jpg" alt="">
+                                  </div>
+                                  <div class="slide">
+                                      <img src="assets/gce class 2.jpg" alt="">
+                                  </div>
+                                  <div class="slide">
+                                      <img src="assets/gce class 1.jpg" alt="">
+                                  </div>
+                             
+  
+                            </div>
+                          </div> -->
+                        <!-- <div class="slider">
+                          <input type="radio" name="slider" id="slide1">
+                          <input type="radio" name="slider" id="slide2">
+                          <input type="radio" name="slider" id="slide3">
+                          <div class="slide-container">
+                            <div class="slides">
+                                <div class="slide">
+                                    <img src="assets/gce CSE dept 1.jpg" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="assets/gce class 2.jpg" alt="">
+                                </div>
+                                <div class="slide">
+                                    <img src="assets/gce class 1.jpg" alt="">
+                                </div>
+                            </div>
+
+                          </div>
+                        </div> -->
+                        <div id="frame" style="height: 50%"  > 
+                            
+                            <iframe name="fram" src="" frameborder="10" width="100%" height="100%" >
+                               
+                            </iframe>
                         </div>
                     </td>
 
                 </tr>
             </table>
+            
            
             <div class="bottem">
                 <div class="a">
@@ -183,7 +233,7 @@
                         <td width="50%"><p align="right" > Developed & Maintained by <a style="color: red;border: 2px solid rgb(150, 150, 18);" href="mine.html">@manly_mani.</a></p></td>
                     </tr>
                    </table>
-                            
+                  
                     
                 </div>
             </div>
@@ -205,9 +255,9 @@
                         <!-- </td> -->
                          <!-- </tr>
                     </table> -->
+                 
     
-    
-    
+                    
        
 
 
@@ -216,7 +266,7 @@
     const vm=document.getElementById("a2");
     const peo=document.getElementById("a3");
     const pso=document.getElementById('a4');
-    const faculty=document.getElementById('a5');
+    // const faculty=document.getElementById('a5');
     const nts=document.getElementById('a6');
     const facility=document.getElementById('a7');
     const activity=document.getElementById('a8');
@@ -227,10 +277,10 @@
         "a2":"<h2>VISION</h2><p> To be a prominent and renowned department recognized as competent Engineers in a myriad of application areas with research and innovation Ideas.<h2>MISSION</h2> To articulate the new ideas in the field of Computer Science and Engineering with software and problem solving skills, leadership qualities, team spirit.To impact the ethical responsibilities, helping the students to contribute positively to the economic well being of our nation and to tackle the complex technological challenges of the future world.</p>",
         "a3":"<h2>PEO</h2><p>Graduates of Computer Science and Engineering will -utilize the fundamental knowledgeof basic sciences and engineering to succeed in their professional career.- acquireexperiential learning to analyze, design, implement and verify computer-based solutions to real world problems. <h2>PO</h2>Engineering Graduates will be able to:1. Engineering knowledge: Apply the knowledge of mathematics, science, engineeringfundamentals, and an engineering specialization to the solution of complex engineering problems.<br>2. Problem analysis: Identify, formulate, review research literature, and analyze complexengineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.<br>3. Design/development of solutions: Design solutions for complex engineering problems anddesign system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.<br>4. Conduct investigations of complex problems: Use research-based knowledge and researchmethods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.<br>5. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modernengineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.<br>6. The engineer and society: Apply reasoning informed by the contextual knowledge to assesssocietal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.<br>7. Environment and sustainability: Understand the impact of the professional engineering solutionsin societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.<br>8. Individual and team work: Function effectively as an individual, and as a member or leader indiverse teams, and in multidisciplinary settings.<br>9. Communication: Communicate effectively on complex engineering activities with the engineeringcommunity and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.</p>",
         "a4":'<h2>PSO</h2><p>1. Foundations of Computer Science: Ability to use the mathematical and computing knowledge to propose viable ideas and solutions to solve real world problems.<br>2. Software design and Development: Ability to apply computer science knowledge for providing computer based solutions using professional skills, knowledge of software design process, programming languages and tools.</p>',
-        "a5":"<h2>FACULTY</h2><p>	Name	Department	Qualification	Designation	E-mail Mr.K.Manojkumar's picture	Mr. K.Manojkumar	CSE	M.E., (Computer Science and Engineering)	Associate Professor and HOD	kmk_manoj@yahoo.com goldabrunet's picture	Dr. R. Golda Brunet	CSE	B.E., M.E.,Ph.D.,	Associate Professor	goldabrunet@gcetj.edu.in Mr. N. Karthikeyan's picture	Mr. N. Karthikeyan	CSE	M.E., (Computer Science and Engineering)	Assistant Professor	nkarthikeyan@gcetj.edu.in Dr. G. Mahalakshmi's picture	Dr. G. Mahalakshmi	CSE	M.E., Ph.D.,	Assistant Professor	gmahalaksmi@gcetj.edu.in indirani's picture	Dr.Indirani G	CSE	M.E, Ph.D	ASSOCIATE PROFESSOR(CAS)	indhiranig@gctej.edu.in 	Dr. N.Suguna	CSE	M.E., Ph.D.,(Computer Science and Engineering)	Associate Professor (CAS)	nsuguna@gcetj.edu.in Dr.R.Manikandan's picture	Dr. R. Manikandan	CSE	M.E., Ph .D.	Associate Professor (CAS)	rmanikandan@gcetj.edu.in Dr.G.Pattabirani's picture	Dr. G. Pattabirani	CSE	Phd	Assistant Professor	gpattabirani@gcetj.edu.in Mr. G.Tamilkumaran's picture	Mr. G.Tamilkumaran	CSE	M.Tech., (Information Technology)	Assistant Professor (Adhoc)	gtamilkumaran@gcetj.edu.in Ms. V.Vijayabharathi's picture	Ms. V.Vijayabharathi	CSE	M.E., (Computer Science and Engineering)	Assistant Professor (Adhoc)	bvijayabharathi@gcetj.edu.in</p>",
-        "a6":"<h2>NON TEACHING STAFF </h2><p>M.SENDHILKUMAR's picture	SENDHILKUMAR M	CSE	DECE,	Artisan Grade II	sendhilkumarmm@gcetj.edu.in	9976997251 V.MURUGAPANDIAN's picture	MURUGAPANDIAN V	CSE	D.Comp.Tech	Lab Assistant	murugapandianv@gcetj.edu.in	9865242180 D.VIMALPRASATH's picture	VIMALPRASATH D	CSE	D.Com.Engg ,BCA, MCA	Lab Assistant	vimalprasathd@gcetj.edu.in	9994576738 K.THIRUGNANAM's picture	THIRUGNANAM K	CSE	D.Comp.Tech	Lab Assistant	thirugnanamk@gcetj.edu.in	8668164354 R.DHEEPA's picture	DHEEPA R	CSE	D.Comp.Tech	Lab Assistant	dheepar@gcetj.edu.in	9942427283</p>",
-        "a7":"<h2>FACILITIES</h2><p> Two Number of spacious and well equipped laboratories with 100  networked systems  with UPS, Printer  support the various laboratories like Computer programming & Graphics Lab Object oriented programming Lab (OOPS Lab) Language Processor Lab Network & OS Lab Internet & Project Lab</p>",
-        "a8":"<h2>CO-CURRICULAR ACTIVITY</h2><p>image vaikkanum bro</p>",
+        // "a5":"<h2>FACULTY</h2><button  ><a href=faculty.html>GOBACKTOCSEHOME</a></button>",
+        "a6":"<h2>NON TEACHING STAFF </h2><p><h2>SENDHILKUMAR M</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DECE,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Artisan Grade II&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sendhilkumarmm@gcetj.edu.in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9976997251 <br>\n<h2>MURUGAPANDIAN V</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.Comp.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tech	Lab Assistant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;murugapandianv@gcetj.edu.in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9865242180 <br><h2>VIMALPRASATH D</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D.Com.Engg ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BCA, MCA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lab Assistant	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vimalprasathd@gcetj.edu.in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9994576738  <br>       <h2>THIRUGNANAM K</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	        D.Comp.Tech	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lab Assistant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thirugnanamk@gcetj.edu.in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	8668164354  <br><h2>DHEEPA R</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D.Comp.Tech&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lab Assistant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dheepar@gcetj.edu.in        	9942427283</p>",
+        "a7":"<h2>FACILITIES</h2><p> Two Number of spacious and well equipped laboratories with 100  networked systems  with UPS, <br> Printer  support the various laboratories<br> Computer programming Graphics Lab  <br>Object oriented programming Lab (OOPS Lab) <br> Language Processor Lab Network  <br> OS Lab Internet & Project Lab</p>",
+        "a8":"<h2>CO-CURRICULAR ACTIVITY</h2><p>*)CLUBS<br>    *)SUMMER PROGRAMS <br>*)INTERNSHIP<br>*)TEACHING AND MENTORING<br>*)SELF-DRIVEN PROJECTS<br>*)HACATHONS</p>",
         
     };
     function loadContent(linkId){
@@ -252,10 +302,18 @@
         event.preventDefault();
         loadContent("a4");
     });
-    faculty.addEventListener('click',function(event){
-        event.preventDefault();
-        loadContent("a5");
-    });
+    // faculty.addEventListener('click',function(event){
+    //     event.preventDefault();
+    //     loadContent("a5");
+    // });
+    // document.getElementById("dd").addEventListener('change',function(){
+    //     var sp=this.value;
+    //     document.getElementById("frame").src=sp;
+    // });
+    // function changeLocation(link){
+    //     var dest=link.getAttribute("href");
+    //     window.location.href=destnation;
+    // }
     nts.addEventListener('click',function(event){
         event.preventDefault();
         loadContent("a6");
@@ -269,10 +327,37 @@
         loadContent("a8");
         
     });
-    // document.getElementById('dd').addEventListener('change',function(){
-    //     var sp=this.value;
-    //     document.getElementById('frame').src=sp;
-    // });
+    function loadPage(url,frameName){
+        var frame=window.frames[frameName];
+        if(frame.location.href==='about:blank'){
+            frame.location.href=url;
+        }
+    }
+    // const slider=document.querySelector('.slider');
+    // const slides=document.querySelectorAll('.slide');
+    
+    // let slideIndex=0;
+    // function nextSlide(){
+    //     if(slideIndex===slides.length){
+    //         slideIndex=0;
+    //     }const offset= -slideIndex * slides[0].offsetWidth;
+    //     slider.style.transform='translateX(-${offset}px)';
+    // }
+    // setInterval(nextSlide,2000)
+    // function loadPage(url,frameName){
+    //     var frame=document.getElementById(frameName);
+
+        
+    //         frame.src=url;
+    //     }
+    
+    // function loadPage(url,frameName){
+    //     var frame=document.getElementById(frameName);
+    //     if(!frame.contentWindow.document.body.innerHTTML.trim()){
+    //         frame.src=url;
+    //     }
+    // }
+    
 </script>
 
 

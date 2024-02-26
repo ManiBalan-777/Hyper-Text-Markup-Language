@@ -215,10 +215,11 @@ a.two22:active{
     
 }
 .conta{
+    
     float: left;
     display: flexbox;
     margin-left: -32px;
-    margin-top: -170px;
+    /* margin-top: -500px; */
    
 }
 .dd li:nth-child(1):hover.csee{
@@ -232,11 +233,12 @@ a.two22:active{
 .dd{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: -150px;
     list-style-type: none;
 }
 .td1{
     background-color:aliceblue;
+    width: 30%;;
 }
 .dd a{
     border: 2px solid white;
@@ -260,8 +262,94 @@ a.two22:active{
     width: 70%;
    
 }
-
+.fty img{   
+    width: 100px;
+    height: 100px;
+}
+.fra1{
+    
    
+    animation-name: ya;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    /* animation-fill-mode: both; */
+    /* animation-direction:alternate; */
+}
+@keyframes ya{
+    0%{
+        background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
+        /* border: 2px solid black; */
+        background-size: cover;
+        margin-left: 600px;
+        margin-top: 100px;
+    }
+    30%{ background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
+        /* border: 2px solid black; */
+        background-size: cover;
+        margin-left: 400px;
+
+    }
+    10%{background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
+        /* border: 2px solid black; */
+        background-size: cover;
+        margin-left: 0px;
+
+    }
+    50%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 500px;
+    }
+    60%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 300px;
+    }
+    70%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 500px;
+    }
+    100%{
+        background-size: cover;
+        background-image: url(assets/gce\ class\ 2.jpg);
+        margin-left: 500px;
+      
+    }
+    70%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 500px;
+    }
+}
+/* .slider{
+    display:flex;
+    transition: transform o.5s ease;
+}
+
+.slide-container{
+    position: relative;
+    max-width: 500px;
+    overflow: hidden;
+}
+/* .slides{
+    display: flex;
+    transition: transform 0.5s ease;
+} */
+/* .slide{
+    flex: 0 0 auto;
+    width:100%;
+}
+.slide img{
+    width: 100%;
+    height: auto;
+}
+.slider input:checked + .slides{
+    transform: translateX(-100%);
+}
+.slide{
+    width: 100%;
+} */
 /* a.test:link{
     background-color: rgb(5, 5, 5);
     color: #000;
