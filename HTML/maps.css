@@ -33,22 +33,7 @@
     color:rgb(223, 95, 21);
     text-decoration: none;
 }
-/* .slideshow img{
-  display: none;
-}
-.slideshow img:first{
-    display: block;
-}
-@keyframes slide{
-    0%
-    { opacity: 0;}
-    100%{
-        opacity: 1;
-    }
-}
-.slideshow img{
-    animation:slide 1s ease-in-out infinite;
-} */
+
 .animi{
     width: 885px;
     height: 400px;
@@ -111,7 +96,7 @@
     }
 }
 .naga{
-    width: 1300px;
+    width: 880px;
     height: 400px;
    
     animation-name: nagap;
@@ -206,6 +191,7 @@
 .box{
     width: 885px;
     height: 400px;
+    
     background-color: rgb(241, 228, 222);
 }
 .bot{

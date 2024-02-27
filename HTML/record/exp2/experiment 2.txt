@@ -1,3 +1,209 @@
+college
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="college.css">
+    <title>College</title>
+</head>
+<body >
+    <div class="one">
+
+       <table border="0"  width="100%" >
+        <tr>
+            <td>
+                <img src="assets/Tamil_Nadu_Emblem.png" alt="" width="120px" height="120px">
+            </td>
+            <td align="center">
+                <h1 >அரசு பொறியியல் கல்லூரி -செங்கிப்பட்டி,தஞ்சாவூர்
+                    <br>
+                    Government College Of Engineering Sengippatti,Thanjavur
+                </h1></td>
+            <td>
+                <img src="assets/gce logo.png" alt="" width="150px" height="100px">
+            </td>
+        </tr>
+       </table>
+    </div>  
+    <div class="two">
+        <nav >
+            
+                <div class="menuicon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div> 
+            <div  class="two2">
+            <a class="two22" href="college.html">HOME</a>
+            <a class="two22"href="about.html"> ABOUT US</a>
+            <a class="two22"href="">ACADEMICS</a>
+            <a class="two22"href="">RESEARCH AND DEVELOPMENT</a>
+            <a class="two22"href="">ADMISSION</a>
+          
+            <a class="two22"href="">FACILITIES</a>
+            <a class="two22"href=""> COMMITTEES</a>
+            <a class="two22"href="">ESTATE OFFICE</a>
+            <a class="two22"href="">CONTACT</a>
+            <a class="two22"href="mine.html">MY ACCOUNT</a>
+            <form  action="/search" method="get">
+                <input type="text" placeholder="search">
+                <button type="submit">search</button>
+            </form>
+        </div>
+            
+        </nav>
+    </div>
+    <div class="three">
+       
+    </div>
+   
+    <table border="0" class="para" width="100%">
+        <tr>
+            <td width="60%">
+                <div >
+                    <p>
+                        <h2><U>ABOUT THE COLLEGE:</U></h2>
+                        <marquee behavior="scroll" direction="up" scrollamount="5" loop="infinite">Government College of Engineering,  Sengipatti, Thanjavur was started in the year 2013 by Government of Tamilnadu to cater for the needs of technical education in emerging areas of engineering and excellence in research in different disciplines of science and engineering. The Tamil Nadu Government has created adequate infrastructural facilities and sufficient funds and is keen on developing the institute for higher education. The college is located on 35.73 acres of lush green environment,20 km from the city of Thanjavur and 35 km from the city of Trichy on Sengipatti - Gandharvakottai Main road. This college is approved by AICTE,New Delhi and affiliated to Anna University, Chennai. This college is the  recognized research centre of Anna University, Chennai. <br><br>
+                
+                            Our institution consists of 30 smart classrooms, I-Studio for online lecture creation, Video broadcasting system, Digital class room,6 Seminar Halls, 60 laboratories, and a separate workshop. Added to this, it has a spacious Auditorium, Boys Hostel, Girls Hostel, Spacious Play ground, multi-gym, and Library. The institution offers the following courses </marquee> 
+                    </p>
+                </div>
+            </td>
+            <td width="40%" style="background-image: url(assets/comp2.jfif);background-repeat: no-repeat;background-size: cover;">
+                <div  align="center" >
+                        <b>DEPARTMENTS</b>
+                        <a class="dep" style="text-decoration: none;" href="cse.html">CSE</a> <br>
+                       <a class="dep"href="#">MECH</a> <br>
+                      <a class="dep" href="#">ECE</a><br>
+                       <a class="dep"href="#">EEE</a><br>
+                      <a class="dep" href="#">CIVIL</a><br>
+                    
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="map">
+        <table border="1"style="border-collapse:collapse;" width="100%">
+            <tr>
+                <td width="50%">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7841.038281403698!2d78.976928!3d10.694383!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa95d58219ee59%3A0xd9db9258a78f83d4!2sGovernment%20College%20Of%20Engineering%2CSengipatti%2CThanjavur!5e0!3m2!1sen!2sus!4v1708779295220!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </td>
+                <td align="center" width="50%">
+                    <h2 align="center">
+                       PRINCIPAL
+                     </h2>
+                    <img src="assets/gce principal.jpg" alt="">
+                    <h3 align="center">
+                       Dr.S.JayaBal
+                    </h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="bottem">
+        <div class="a">
+            <nav>
+                <a href="">STUDENTS</a>
+                <a href=""> FACULTY AND STAFF</a>
+                <a href="">ALUMNI</a>
+                <a href="">INDUSTRY</a>
+                <a href="">DIRECTORY</a>
+                <a href="">CONTACT</a>
+            </nav>
+        </div>
+        <div class="b">
+            <h2>DEPARTMENTS</h2>
+            <table border="0" width="100%">
+                <tr>
+                    <td><a href="cse.html">Computer Science and Engineering</a></td>
+                    <td><a href="#">Electronnics and Communication Engineering</a></td>
+                    <td><a href="#">Mechanical Engineering</a></td>
+                    <td><a href="#">Civil Engineering</a></td>
+                    <td><a href="#">Electric and Electronic Engineering</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="a">
+            <nav>
+                <a href="">Annual Reports</a>
+                <a href="">Annual Accounts</a>
+                <a href="">Annual Budget</a>
+                <a href="">Acts and Status</a>
+                <a href="">Quality policy</a>
+                <a href="">ISO</a>
+            </nav>
+        </div>
+        <div class="d">
+            <table border="0" width="100%">
+                <tr>
+                    <td class="d1"  width="25%">
+                        <h1> SOCIAL MEDIA</h1>
+                    </td>
+                    <td class="d2"  width="25%">
+                        <h2>QUICK LINKS</h2>
+                        <ul>
+                            <li><a href="#">News & Events</a></li>
+                            <li><a href="">Admission Procedure</a></li>
+                            <li><a href="">Fee structure</a></li>
+                            <li><a href="">Circulars/Minutes</a></li>
+                        </ul>
+                    </td>
+                    <td class="d3"  width="25%" >
+                        <h2>DOWNLOADS</h2>
+                        <ul>
+                            <li><a href="#">Mandatory Disclosure</a></li>
+                            <li><a href="">Faculty/Staff forms</a></li>
+                            <li><a href="">Govt scholarship forms</a></li>
+                           
+                        </ul>
+                    </td>
+                    <td class="d4" width="25%">
+                        <h2>CONTACT US</h2>
+                        <a href="#">Government College of Engineering-Thanjavur Thanjavur, </a>
+                            <a href="">Tamil Nadu - 613 402</a> <br>
+                           <a href="">Phone - 04362 221112, 221113 </a> <br>
+                            <a href="">Fax -  04362 221112</a> <br>
+                            <a href="mailto:gcesengipatti@gmail.com">E-mail : gcesengipatti@gmail.com </a>
+                       
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="e">
+            <img src="assets/gce logo.png" width="100px" height="70px" alt="college logo">
+            <h1 > GCE THANJAVUR</h1>
+        </div>
+        <div class="f" >
+           <table width="100%"border="0" >
+            <tr>
+                <td width="50%"> <p>Copyright © Government College Of Engineering - Thanjavur , 2024
+                    </p>
+                   
+                </td>
+                <td width="50%"><p align="right" > Developed & Maintained by <a style="color: red;border: 2px solid rgb(150, 150, 18);" href="mine.html">@manly_mani.</a></p></td>
+            </tr>
+           </table>
+                    
+            
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+cse
+
+
+
+	
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -266,5 +472,355 @@
 
 
     
-   </body>
+  </body>
 </html>
+
+
+
+
+
+collsge.css
+
+
+
+
+
+
+
+.entrance{
+    background-image:url(assets/Government_College_of_Engineering\,_Thanjavur..jpg);
+    background-size:cover;
+    opacity: 0.75;
+   
+}
+.menuicon{
+   
+    
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 16px;
+
+    
+}
+.bar{
+    width: 100%;
+    height: 4px;
+    background-color: #000;;
+}
+.one{
+    background-image: linear-gradient(to left,rgba(58, 82, 216, 0.952),rgba(155, 163, 211, 0.582));
+}
+.three{
+    border: 2px solid rgb(248, 248, 248);
+    width:100%;
+    height:400px;
+    animation-name: img;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+   
+}
+@keyframes img{
+    0%{
+        background-image: url(assets/Government_College_of_Engineering\,_Thanjavur..jpg);
+       background-size: cover;
+        background-position: center;
+        
+    }
+    50%{
+        background-image: url(assets/gce\ lib.jpg);
+        background-size: cover;
+        background-position: left;
+        
+    }
+    100%{
+       
+        background-image: url(assets/gce\ ground.jfif);
+        background-position:left;
+        background-size: cover;
+        
+       
+        
+    }
+}
+.two2{
+    word-spacing: 3px;
+    margin-left: 40px;
+    margin-top: -2px;
+    position: relative;
+    bottom: 16px;
+    text-decoration: none;
+}
+.two{
+   
+   background-image: linear-gradient(to right,rgba(58, 82, 216, 0.952),rgba(155, 163, 211, 0.582));
+
+    border: 2px solid rgb(247, 247, 247);
+    
+    text-decoration: none;
+}
+.two input[type=text]{
+    border: 2px solid rgb(223, 169, 169);
+    width: 60px;
+} 
+.two form{
+    float: right;
+    border: 1px solid rgb(187, 21, 21);
+    color: red;
+    width: 20px;
+    display: inline-flex;
+    margin-right: 100px;
+}
+a.two22:link{
+    background-color: rgb(58, 139, 25);
+    text-decoration: none;
+    border: 2px solid rgb(100, 45, 45);
+}
+a.two22:hover{
+    text-transform: lowercase;
+    background-color:aqua;
+    color: blue;
+    cursor:grab;
+    text-decoration: none;
+}
+a.two22:visited{
+    background-color: rgba(25, 182, 156, 0.712);
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+   
+   
+}
+a.two22:active{
+    background-color: rgb(29, 243, 22);
+    color: white;
+    cursor:-webkit-grabbing;
+    text-decoration: none;
+   
+}
+.para{
+
+    text-align: justify;
+    text-transform:capitalize;
+    text-indent: 2px 2px;
+    
+}
+.para marquee{
+    color: rgb(83, 17, 204);
+    text-align: justify;
+}
+.dep{
+    text-decoration: line-through;
+    border: 2px solid rgb(61, 236, 8);
+    color: coral;
+    background-color:antiquewhite;
+   width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.bottem
+{
+    background-color: rgba(17, 28, 87, 0.877);
+}
+.a{
+    
+    border: 1px solid whitesmoke;
+    word-spacing: 15px;
+    height: 50px;
+    
+}
+.a a{
+    display:inline-flex;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration:none;
+    text-transform:capitalize;
+    
+}
+.b{
+    
+    color:aliceblue;
+    
+    border: 1px solid whitesmoke;
+    width: 100%;
+}
+.b h2{
+   
+    margin-left: 15px;
+}
+.b a{
+    display:inline-flex;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    color: thistle;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.d{
+   
+    border: 1px solid white;
+    color:aliceblue;
+    
+}
+.e{
+    border: 1px solid white;
+    color:wheat;
+}
+.e h1{
+    float:right;
+    margin-right: 900px;
+    text-align: justify;
+}
+.d d2{
+    position: relative;
+    margin-top: 5px;
+}
+.d d3{
+    position: relative;
+    margin-top: -5px;
+}
+
+.d a{
+    color: thistle;
+    text-decoration: none;
+}
+.f{
+    color:whitesmoke;
+    border: 1px solid white;
+}
+.left a{
+    text-decoration: none;
+    position: relative;
+    margin-top: 1%;
+   
+    
+}
+.csee{
+    list-style-type: none;
+    
+}
+.conta{
+    
+    float: left;
+    display: flexbox;
+    margin-left: -32px;
+    
+}
+.dd li:nth-child(1):hover.csee{
+   display: inline;
+}
+.u3{
+    float: left;
+    display: flexbox;
+    margin-left: 3px;
+}
+.dd{
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+    list-style-type: none;
+}
+.td1{
+    background-color:rgb(221, 238, 253);
+    width: 30%;;
+}
+.td21{
+    
+    background-color: rgb(216, 222, 235);
+}
+.td21 img{
+    border: 1px solid rgb(43, 101, 226);
+   
+}
+.td23{
+    background-color: rgb(194, 195, 224);
+    border: 1px solid rgb(101, 133, 155);
+}
+.dd a{
+    border: 2px solid white;
+    background-color: #181a7236;
+    border-style:groove;
+    
+    display: block;
+    width: 200px;
+    color: rgb(33, 19, 233);
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.dd a:hover{
+    background-color: skyblue;
+}
+.right{
+   
+   
+    width: 70%;
+   
+}
+.fty img{   
+    width: 100px;
+    height: 100px;
+}
+.fra1{
+    
+   
+    animation-name: ya;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+ 
+}
+@keyframes ya{
+    0%{
+        background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
+                background-size: cover;
+        margin-left: 600px;
+        margin-top: 100px;
+    }
+    30%{ background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
+      
+        background-size: cover;
+        margin-left: 400px;
+
+    }
+    10%{background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
+      
+        background-size: cover;
+        margin-left: 0px;
+
+    }
+    50%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 500px;
+    }
+    60%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 300px;
+    }
+    70%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 500px;
+    }
+    100%{
+        background-size: cover;
+        background-image: url(assets/gce\ class\ 2.jpg);
+        margin-left: 500px;
+      
+    }
+    70%{
+        background-image: url(assets/gce\ class\ 1.jpg);
+        background-size: cover;
+        margin-left: 500px;
+    }
+}

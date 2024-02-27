@@ -1,0 +1,1066 @@
+hotspot
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="maps.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotSpots</title>
+</head>
+<body>
+<div id="india" >
+    <img  src="assets/india.jpg" usemap="#image-map" align="center">
+    <map name="image-map">
+    <area target="" alt="" title="" href="tamilnadu.html"coords="332,832,337,824,337,815,342,808,336,800,337,790,333,781,325,781,327,771,323,766,317,758,312,751,319,748,329,748,337,747,343,743,350,740,349,730,359,720,367,722,376,723,380,717,390,716,402,710,419,707,427,709,426,720,423,727,419,736,414,747,415,759,413,770,413,781,402,785,395,794,389,803,395,813,370,822,363,831,352,835,345,838,338,837" shape="poly">
+</map>
+</div>
+</body>
+</html>
+
+tamilnadu
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>   
+<img src="assets/tamilnadu.jpg" usemap="#image-map">
+<map name="image-map">   
+    <area target="frame" alt="" title="" href="thanjavur.html" coords="286,296,287,283,282,276,291,271,300,269,308,267,318,264,331,257,337,251,347,245,350,247,351,265,342,274,333,270,326,277,326,287,329,294,333,305,341,307,343,315,345,327,337,330,329,334,320,340,314,344,308,339,309,324,314,303,302,294" shape="poly">
+    <area target="frame" alt="" title="" href="pudukkottai.html" coords="303,376,311,368,317,361,318,353,317,344,314,339,307,335,308,327,311,317,313,307,305,296,298,289,290,294,278,293,271,295,265,288,257,291,249,294,238,303,240,309,250,312,246,319,242,323,245,329,239,339,244,344,254,334,260,341,266,349,277,346,281,352,291,354,290,362,296,371" shape="poly">    
+    <area target="frame" alt="" title="" href="araiyalur.html" coords="293,269,292,260,301,248,307,236,311,225,318,221,332,218,341,225,345,231,346,240,343,247,337,251,327,259,316,263,308,268,301,271" shape="poly">   
+    <area target="frame" alt="" title="" href="tiruchy.html" coords="282,294,269,295,261,293,250,294,241,301,238,309,241,314,248,311,252,318,247,320,234,328,224,327,221,319,214,314,217,305,221,296,227,294,233,292,240,292,246,285,248,276,241,271,233,264,221,269,213,261,220,254,230,246,236,242,240,233,240,220,251,224,263,225,269,234,264,246,266,255,272,250,278,257,286,252,294,254,291,262,289,269,283,279,283,292" shape="poly">
+    <area target="frame" alt="" title="" href="nagapattinam.html" coords="358,239,366,232,373,225,380,223,381,230,383,236,386,245,386,254,383,262,370,268,375,274,380,281,383,291,385,320,384,334,382,339,375,329,367,328,362,327,358,321,368,315,364,306,364,295,369,288,366,280,361,277,364,267,368,259,358,262,349,261,350,250" shape="poly">
+</map>   
+<iframe name="frame" src="empty.html" frameborder="2" width="880px" height="563"></iframe>
+</body>
+</html>
+
+
+thanjavur
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="maps.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table  border="1" width="885px">
+        <tr><td><img width="100" src="assets/Tamil_Nadu_Emblem.png" alt="">
+        <h1 style="float: right;">THANJAVUR DISTRICT<br>தஞ்சாவூர் மாவட்டம்</h1></td><td><img height="100" src="assets/digitalindia.png"alt="" align="right"></td></tr>
+    </table>
+    <nav class="navthan">
+       <pre><div><a style="color:rgb(238, 13, 13); text-decoration: none;" href="thanjavur.html"> HOME</a> <a style="color:rgb(238, 13, 13); text-decoration: none;" href="blank.html">ABOUT DISTRICT</a> <a style="color:rgb(238, 13, 13); text-decoration: none;"href="blank.html">DEPARTMENTS</a> <a style="color:rgb(238, 13, 13); text-decoration: none;"href="blank.html">DIRECTORY</a> <a style="color:rgb(238, 13, 13); text-decoration: none;" href="blank.html">TOURISMS</a> <a style="color:rgb(238, 13, 13); text-decoration: none;" href="blank.html">NOTICES</a> <a style="color:rgb(238, 13, 13); text-decoration: none;" href="">CITIZENSERVICES</a> <a  style="color:rgb(238, 13, 13); text-decoration: none;"href="blank.html">MEDIA CORNER</a> <a style="color:rgb(238, 13, 13); text-decoration: none;" float="right" href="blank.html">=MORE</a></div>
+       </pre>        
+    </nav>
+    <div class="thanjai">
+    </div>
+    <table class="about" border="1"  cellspacing="20px">
+        <tr><td><h1>THANJAVUR DISTRICT</h1><h3>Granary’s of South India</h3><p>River cauvery is the Main Source of irrigation for Cultivation in this district, which is known for its heritage in water management. Composite Thanjavur District with its fertile  soil is one of the largest  paddy cultivation area not only in Tamilnadu but also in South India. Thanjavur  District is in the east coast of Tamil Nadu.  The district lies between 78. 43’ and 70. 23’ of the Eastern longitudes and 9.50′ and 11.25’ of the Northern Latitudes.Since composite Thanjavur is large in extent, for administrations Convienience two districts were carved out from Thanjavur composite district.On 19.01.1991 Nagapattinam district was formed by bifurcating  Thanjavur district At the time Nagapattinam district  included Thiruvarur, Mayiladudurai, Mannargudi, Nagapattinam divisions and Valangaiman taluk from Kumabakonam division.</td><td>
+        <img src="assets/collector.jfif" alt=""><p align="center"><b>Thiru. Deepak Jacob I.A.S</b></p></td></tr>
+    </table>
+    <table class="box" border="1" cellspacing="18px">
+        <tr style="background-color: aliceblue;"><td><h1 style="color: black;">District Admin Units</h1><img align="right"width="120px"src="assets/revenue.png" alt="" ><p>
+        <h3 style="color: green;">Revenue</h3><p style="color: green;">
+        Revenue Divisions : 3 <br>Taluks : 9 <br>Firkas : 50 <br>Revenue Villages : 906</p></p><img align="right" width="90px" src="assets/development.png" alt="" ><h1 style="color:rgb(21, 109, 192)">  Development</h1><p style="color:rgb(21, 109, 192)">Block : 14 <br>
+        Panchayat Villages : 589</p><img align="right"width="90px"src="assets/localbodies.png" alt=""><h1 style="color: red;">Local Bodies</h1><p style="color: red;"> Corporations : 2 <br>Municipalities: 1 <br>Town Panchayats : 22</p><img align="right" width="90px"src="assets/constituency.png" alt=""><h2 style="color:black">Constituencies</h2>
+        <p style="color: black" >Assembly : 8 <br>Lok Sabha : 1</p></td><td style="color: darkgreen;"><h1>District At a Glance</h1><h2>General:</h2><b>District:</b> Thanjavur<br><b>HeadQuarters:</b> Thanjavur <br><b>State: </b>TamilNadu<h2> Area:</h2><b>Total:</b> 339923.26 Sq.Ms <br><b> Rural: </b>335321.77 Sq.Ms <br><b> Urban: </b>4337.86 Sq.Ms <br><b> Forest:</b> 263.63 Sq.Ms <br><h2>Population:</h2><b> Total: </b>2405890<b> Male:</b> 1182416 <br><b> Female: </b>1223474</td>
+        <td align="center"><h1>Departments</h1>
+            <pre>
+                <a style="color: rgb(223, 95, 21);text-decoration: none;" align="center" href="blank.html">
+Tourism
+Agriculture
+Tamil Development
+Revenue
+District Supply Office
+Education
+Agri. Engineering
+DDAWO
+Mahalir Thittam
+Social Welfare
+PWD (Water Resource)
+TNEB
+TWAD
+Animal Husbandry
+Corporation Thanjavur
+DBCWO
+</a></pre></td></tr>
+    </table>
+    <table class="about" border="1" cellspacing="8"><tr><td>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2007534.5195484173!2d79.174276!3d10.59758!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baab89cea453039%3A0xe113da9b1f632be6!2sThanjavur%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1708440125355!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </td><td align="center" id="basic"><h3>Citizen Corner</h3><a href="blank.html" style="color: rgb(192, 19, 126);">Online Services - LandRTI Online GPF
+                Citizen Charter
+                Grievance Redressal
+            </a>
+        </td>
+        <td align="center" id="basic">
+           <h3>Quick Links</h3>
+           <a href="blank.html" style="color: rgb(192, 19, 126);" >
+                Who's Who
+                CSCs
+                Contact Directory
+                Elected Representatives
+           </a>
+        </td>
+        <td align="center" id="basic">
+            <h3>Tourism</h3>
+            <a href="blank.html" style="color: rgb(192, 19, 126);" >
+                How to Reach
+                Places of Interest
+                Events & Festivals
+                Tourist Information
+            </a>
+        </td>
+    </tr>
+    </table>
+    <nav id="below"  style="background-color: black;" >    
+    <pre > 
+        <a href="#" style="color: ghostwhite;">WEBSITE POLICIES</a>         <a style="color: ghostwhite;" href="blank.html">HELP</a>       <a href="blank.html" style="color: ghostwhite;">CONTACT US</a>       <a href="blank.html" style="color: ghostwhite;">FEEDBACK</a>
+    </pre>
+    </nav>
+    <div id="below" width="885px">
+    <p align="center">Content Owned by District Administration
+        © Thanjavur District , <br> Developed And Hosted By <a href="blank.html">National Informatics Centre</a>,
+        <a href="blank.html">Ministry Of Electronics & Information Technology</a>, Government Of India
+        <br>
+       <b> Last Updated: Feb 19, 2024</b></p>       
+       <table class="about" >
+        <tr><td align="center"><img height="50" width="100" src="assets/swass.jfif" alt=""></td>
+        <td align="center"><img  height="50" width="100" src="assets/nic.jfif" alt=""></td>
+        <td align="center"><img height="50" width="100"src="assets/digitalindia.png" alt=""></td></tr>
+       </table>
+   </div>
+</body>
+</html>
+
+
+ariyalur
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="maps.css">
+</head>
+<body>
+    <table border="1" width="885px">
+        <tr>
+            <td><img width="100px" src="assets/Tamil_Nadu_Emblem.png" alt="">
+                <h1 style="float: right;">ARIYALUR<br>அரியலூர் மாவட்டம்</h1></td>
+            <td><img src="assets/Azadi-Ka-Amrit-Mahotsav-Logo.png"alt="" width="200" height="100" align="right"></td>
+        </tr>
+    </table>
+
+    <div class="red">
+        <nav >
+         
+            <a href="pudukkottai.html"> HOME </a>   <a href="">ABOUT DISTRICT</a>  <a href="">DEPARTMENTS</a>  <a href="">DIRECTORY</a>     <a href="">TOURISMS</a>   <a href="">DOCUMENT</a>  <a href="">CITIZENSERVICES</a>  <a href="">MEDIA CORNER</a>   <a float="right" href="">=MORE</a>
+           
+           
+            
+        </nav>
+    </div>
+    <div class="slideshow"  >
+     
+           
+    </div>
+    <table border="1" class="about">
+        <tr>
+            <td>
+                <h1>ARIYALUR DISTRICT</h1>
+                <p>Ariyalur District came into existence by the bifurcation of Perambalur District as per G.O.(Ms)No.683 Revenue(RA1(1)) Department dated 19.11.2007. It is bounded on the North by Cuddalore, South by Thanjavur, East by Cuddalore and Thanjavur and West by Perambalur and Tiruchirapalli districts.
+
+                    Ariyalur District consists of two Revenue Divisions viz., Ariyalur and Udayarpalayam, Four Taluks viz., Ariyalur, Sendurai, Udayarpalayam and Andimadam (Andimadam Taluk is formed as per G.O.(Ms) No. 167 Revenue(RA1(1)) Department dated : 08-05-2017) comprising of 195 Revenue Villages. The District has six blocks viz. Ariyalur, Thirumanur, Sendurai, Jayankondam, Andimadam and T.Palur comprising of 201 Village Panchayats. There are two Municipalities viz. Ariyalur & Jayankondam and two Town Panchayats viz. Udayarpalayam & Varadharajanpettai.</p>
+            </td>
+                       <td> <img src="assets/ariyalur collector.jpeg" alt=""width="250">
+                <h3 align="center">Tmt.D Rathna I.A.S</h3></td>
+        </tr>
+    </table>
+    <table class="box" border="1" cellspacing="18px">
+        <tr style="background-color: aliceblue;">
+            <td>
+                <h1>District Admin Units</h1>
+                <img align="right" width="90px"src="assets/revenue.png" alt="" > 
+                <div id="rev">
+                   <h3>Revenue</h3>
+                   <p>Division : 2
+                       Taluks : 4
+                       Firkas : 15
+                       Revenue Village : 195
+                   </p>
+               </div>
+               
+               <div id="develope">
+                   <img align="right" width="90px" src="assets/development.png" alt="" >
+                   <h3>Development</h3>
+                   <p>
+Block : 6 <br>
+Village Panchayat : 201
+                   </p>
+               </div>
+               <img align="right" width="90px"src="assets/localbodies.png" alt="">
+               <div id="lb">
+                   <h3>Local Bodies</h3>
+                   <p>
+                      
+Municipalities : 2 <br>
+Town Panchayat : 22
+                   </p>
+               </div>
+               <img align="right" width="90px"src="assets/constituency.png" alt=""> 
+               <div id="con">
+                   <h3>Constituencies</h3>
+                   <p>
+ 
+Assembly : 8 <br>
+Parliament : 1 <br>
+<p>Government Medical College Ariyalur</p>
+            </td>
+                   </p>
+               </div>
+
+
+              
+               
+            </td>
+            <td style="color: darkgreen;">
+                h1>District At a Glance</h1>
+                <h2>General:</h2>
+                <b>District:</b> Ariyalur <br>
+                <b>HeadQuarters:</b> Ariyalur <br>
+                <b>State: </b>TamilNadu
+               <h2> Area:</h2>
+                <b>Total:</b> 1940.00 Sq.Kms <br>
+               <b> Rural: </b> 1886.69 Sq.Kms <br>
+               <b> Urban: </b> 53.31 Sq.Kms  <br>
+              
+                <h2>Population:</h2>
+               <b> Total: </b>754894
+              <br> <b> Male:</b> 374703 <br>
+               <b> Female: </b> 380191
+                </td>
+            <td>
+                <h1>DEPARTMENTS</h1>
+                <a style="color: rgb(223, 95, 21);text-decoration: none;" href="#" >
+        <pre>
+            Tamil Development
+            Agriculture
+            District Industries Centre
+            THADCO
+            DIstrict Library
+            Economics & Statistics
+            School Education
+            Social Welfare & <br> Nutritious Meal Programm
+        </pre>
+               </td>
+    </tr>
+   <table class="about"border="1">
+    <tr>
+        <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2004206.6113296303!2d79.228212!3d11.153089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baadf64aacdec61%3A0x7b67cecaf20a3c78!2sAriyalur%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1708707200501!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        <td align="center" id="basic">
+            <h3>Citizen Corner</h3>
+            <a href="#" style="color: rgb(192, 19, 126);">
+                Online Services - Land
+                RTI
+                Online GPF
+                Citizen Charter
+                Grievance Redressal
+            </a>
+           </td>
+            <td align="center" id="basic">
+           <h3>Quick Links</h3>
+           <a href="#" style="color: rgb(192, 19, 126);" >
+            Who's Who
+            CSCs
+            Contact Directory
+            Elected Representatives
+           </a></td>
+           <td align="center" id="basic">
+            <h3>Tourism</h3>
+            <a href="#" style="color: rgb(192, 19, 126);" >
+            How to Reach
+            Places of Interest
+            Events & Festivals
+            Tourist Information
+        </a></td>
+    </tr>
+   </table>
+   <hr>
+   <div ><nav id="below"  style="background-color: black;"  >  
+    <pre align="center" > 
+        <a href="#" style="color: ghostwhite;">WEBSITE POLICIES</a>         <a style="color: ghostwhite;" href="#">HELP</a>       <a href="#" style="color: ghostwhite;">CONTACT US</a>       <a href="#" style="color: ghostwhite;">FEEDBACK</a></pre></nav></div>
+        <div id="below">
+    <p align="center">Content Owned by District Administration
+        © Content Owned And Maintained By Ariyalur District Administration ,  <br> Developed And Hosted By <a href="#">National Informatics Centre</a>,
+        <a href="#">Ministry Of Electronics & Information Technology</a>, Government Of India
+        <br>
+       <b> Last Updated: Feb 22, 2024</b></p>
+       <hr>
+       <table class="about">
+
+        <tr><td align="center"><img height="50" width="100" src="assets/swass.jfif" alt=""></td>
+        <td align="center"><img  height="50" width="100" src="assets/nic.jfif" alt=""></td>
+        <td align="center"><img height="50" width="100"src="assets/digitalindia.png" alt=""></td></tr>
+       </table>
+   </div>
+</body>
+</html>
+
+
+nagappttinaem
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="maps.css">
+</head>
+<body>
+    <table border="1" width="885px">
+        <tr>
+            <td><img width="100px" src="assets/Tamil_Nadu_Emblem.png" alt="">
+                <h1 style="float: right;">நாகப்பட்டினம் <br>
+                    NAGAPATTINAM DISTRICT
+                </h1>
+            </td>
+            <td><img src="assets/Azadi-Ka-Amrit-Mahotsav-Logo.png"alt=""width="300" height="100" align="right"></td>
+        </tr>
+    </table>
+
+    <div class="red">
+        <nav >
+         
+            <a href="pudukkottai.html"> HOME </a>   <a href="">ABOUT DISTRICT</a>  <a href="">DEPARTMENTS</a>  <a href="">DIRECTORY</a>     <a href="">TOURISMS</a>   <a href="">DOCUMENT</a>  <a href="">CITIZENSERVICES</a>  <a href="">MEDIA CORNER</a>   <a float="right" href="">=MORE</a>
+           
+           
+            
+        </nav>
+    </div>
+    <div class="naga" width="100%" >
+     
+           
+    </div>
+    <table class="about" border="1">
+        <tr>
+            <td>
+                <h1>NAGAPPTTINAM DISTRICT</h1>
+                <p>A Coastal District of Tamil Nadu, on the eastern coast, Bay of Bengal, 326 K.M, south of the State Capital, Chennai, 145 K.M from Trichy, A middle Town. The District Capital Nagapattinam lies between Northern Latitude 10.7906 degrees and 79.8428 Degrees Eastern Longitude. A District known for its Rich Religious Heritage and Communal Harmony. Nagapattinam district was carved out by bifurcating the Erstwhile composite Thanjavur district on 18.10.1991. Nagapattinam is a unique District with all its historical and cultural significance. This Houses the places of Worship belongs to Major faiths.
+
+                    Nagapattinam is one of the constituents of chola mandalam, acclaimed as the Most prominent among the ancient Tamil Kingdoms. Its salient features more than anything else have contributed to the glory of the cholamandalam.</p>
+            </td>
+            
+            <td> <img width="250px" src="assets/nagappattinam collector.jpg" alt=""><h3 align="center">Thiru Johny Tom Varghese I.A.S</h3></td></td>
+        </tr>
+    </table>
+    <table border="1" class="box" cellspacing="18px">
+        <tr style="background-color: aliceblue;">
+            <td >
+                <h1>District Admin Units</h1>
+                <img align="right" width="90px"src="assets/revenue.png" alt="" > 
+             	<div id="rev">
+                    <h3>Revenue</h3>
+                    <p>Division : 2
+                        Taluks : 4 <br>
+                        
+                        Revenue Village : 236
+                    </p>
+                </div>
+                
+                <div id="develope">
+                    <img align="right" width="90px" src="assets/development.png" alt="" >
+                    <h3>Development</h3>
+                    <p>
+Block : 06 <br>
+Village Panchayat : 193
+                    </p>
+                </div>
+                <img align="right" width="90px"src="assets/localbodies.png" alt="">
+                <div id="lb">
+                    <h3>Local Bodies</h3>
+                    <p>
+                        Corporations : 0 <br>
+                        Municipalities: 2 <br>
+                        Town Panchayats : 04
+                    </p>
+                </div>
+                <img align="right" width="90px"src="assets/constituency.png" alt=""> 
+                <div id="con">
+                    <h3>Constituencies</h3>
+                    <p>
+  
+                        Assembly : 3 <br>
+                        Lok Sabha : 01
+                    </p>
+                </div>
+
+              
+               </td>
+
+               <td style="color: darkgreen;">
+                <h1>District At a Glance</h1>
+                <h2>General:</h2>
+                <b>District:</b> Nagapattinam <br>
+                <b>HeadQuarters:</b> Nagapattinam <br>
+                <b>State: </b>TamilNadu
+               <h2> Area:</h2>
+                <b>Total:</b> 1940.00 Sq.Kms <br>
+              <b> Forest:</b> 263.63 Sq.Ms <br>
+                <h2>Population:</h2>
+                <b> Total: </b>1616450
+                <br> <b> Male:</b> 798127 <br>
+               <b> Female: </b> 818323
+           </td>
+          <td>
+            <h1>DEPARTMENTS</h1>
+            <a style="color: rgb(223, 95, 21);text-decoration: none;" href="#" >
+    <pre>
+        District Differently Abled Welfare Office
+        DRDA
+        Education
+        Election
+        Revenue
+        Police
+        Fisheries
+        Transport
+        Commercial text-decoration
+            </a>
+        </td>
+    </tr>
+   <table class="about" border="1">
+    <tr>
+        <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2007916.6520740634!2d79.75451100000001!3d10.601659!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a556c9797ef6927%3A0xc869efbb726e6072!2sNagapattinam%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1708711700591!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        <td align="center" id="basic">
+            <h3>Citizen Corner</h3>
+            <a href="#" style="color: rgb(192, 19, 126);">
+                Online Services - Land
+                RTI
+                Online GPF
+                Citizen Charter
+                Grievance Redressal
+            </a>
+           </td>
+            <td align="center" id="basic">
+           <h3>Quick Links</h3>
+           <a href="#" style="color: rgb(192, 19, 126);" >
+            Who's Who
+            CSCs
+            Contact Directory
+            Elected Representatives
+           </a></td>
+           <td align="center" id="basic">
+            <h3>Tourism</h3>
+            <a href="#" style="color: rgb(192, 19, 126);" >
+            How to Reach
+            Places of Interest
+            Events & Festivals
+            Tourist Information
+        </a></td>
+    </tr>
+   </table>
+   <hr>
+   <div ><nav id="below"  style="background-color: black;"  >  
+    <pre align="center" > 
+        <a href="#" style="color: ghostwhite;">WEBSITE POLICIES</a>         <a style="color: ghostwhite;" href="#">HELP</a>       <a href="#" style="color: ghostwhite;">CONTACT US</a>       <a href="#" style="color: ghostwhite;">FEEDBACK</a></pre></nav></div>
+   <div id="below">
+     <p align="center">Content Owned by District Administration
+        © Nagapattinam District , Government Of Tamilnadu , <br> Developed And Hosted By <a href="#">National Informatics Centre</a>,
+        <a href="#">Ministry Of Electronics & Information Technology</a>, Government Of India
+        <br>
+       <b> Last Updated: Feb 19, 2024</b></p>
+       <hr>
+       <table width="100%" >
+        <tr><td align="center"><img height="50" width="100" src="assets/swass.jfif" alt=""></td>
+        <td align="center"><img  height="50" width="100" src="assets/nic.jfif" alt=""></td>
+        <td align="center"><img height="50" width="100"src="assets/digitalindia.png" alt=""></td></tr>
+       </table>
+   </div>
+</body>
+</html>
+
+
+pudukkottai
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="maps.css">
+</head>
+<body>
+    
+    <table border="1" width="885px">
+        <tr>
+            <td>
+                <img width="100px" src="assets/Tamil_Nadu_Emblem.png" alt="">
+                <h1 style="float: right;">PADUKKOTTAI<br>புதுக்கோட்டை மாவட்டம்
+                    </h1>
+            </td>
+            <td>
+                <img src="assets/Azadi-Ka-Amrit-Mahotsav-Logo.png"alt="" width="300" height="100" align="right"></td>
+        </tr>
+    </table>
+    <div class="red">
+    <nav >
+     
+        <a href="pudukkottai.html"> HOME </a>   <a href="">ABOUT DISTRICT</a>  <a href="">DEPARTMENTS</a>  <a href="">DIRECTORY</a>     <a href="">TOURISMS</a>   <a href="">DOCUMENT</a>  <a href="">CITIZENSERVICES</a>  <a href="">MEDIA CORNER</a>   <a float="right" href="">=MORE</a>
+       
+       
+        
+    </nav>
+</div>
+    <div class="animi"  >
+            
+    </div>
+    <table border="1" class="about">
+        <tr>
+            <td>
+                <h1>PUDUKKOTTAI DISTRICT</h1>
+                <p >Pudukkottai district as one of the princely states of Tamilnadu holds rich cultural heritage with Fortresses, Palaces, Temples, Cave Paintings and many other historical monuments. The district was one of the homes of pre-historic man. Many of the villages are of ancient foundation and also referenced often in Tamil Sangam Literature. Pudukkottai district is well endowed with natural resources of land and sea bounded by the marine hedge of Bay of Bengal in the east conjoined by the southern districts viz, Trichy, Sivaganga, Ramanathapuram and Thanjavur. The Palaces, Fortress, Canals and Tanks built during the reign of ancient Tamil Kings are the place of interest. Besides, Temple in Avudayarkovil, Kudumiyanmalai, Chitthannavasal are very much prominent. Muslim’s sacred place viz Kattubhava pallivasal, christian monument at Avur and jains temples at Annavasal proclaims the religious harmony of the district. Peacock sanctuary at Viralimalai, cave temples, temples built on the mountains are major tourism destination.
+
+                    Pudukkottai was organised as a separate district, on 14th January 1974, comprising the former Pudukkottai Division of Tiruchirappalli district with some additions from Thanjavur district.</p>
+                
+            </td>
+            
+            <td> <img width="250px"src="assets/pattukkotai collector.jpg" alt="">
+            <h3 align="center">Tmt. I.S. Mercy Ramya I.A.S</h3></td>
+        </tr>
+    </table>
+    <table class="box" border="1" cellspacing="18px">
+        <tr style="background-color: aliceblue;">
+            <td>
+                <h1>District Admin Units</h1>
+                <img align="right" width="90px"src="assets/revenue.png" alt="" > 
+             	<div id="rev">
+                    <h3>Revenue</h3>
+                    <p>Division : 3
+                        Taluks : 12
+                        Firkas : 45
+                        Revenue Village 763
+                    </p>
+                </div>
+                
+                <div id="develope">
+                    <img align="right" width="90px" src="assets/development.png" alt="" >
+                    <h3>Development</h3>
+                    <p>
+Block : 13 <br>
+Village Panchayat : 497
+                    </p>
+                </div>
+                <img align="right" width="90px"src="assets/localbodies.png" alt="">
+                <div id="lb">
+                    <h3>Local Bodies</h3>
+                    <p>
+                       
+Municipalities : 2 <br>
+Town Panchayat : 8
+                    </p>
+                </div>
+                <img align="right" width="90px"src="assets/constituency.png" alt=""> 
+                <div id="con">
+                    <h3>Constituencies</h3>
+                    <p>
+  
+Assembly : 6 <br>
+Parliament : 4
+                    </p>
+                </div>
+
+
+
+
+
+</td>
+            <td style="color: darkgreen;">
+                <h1>District At a Glance</h1>
+                <h2>General:</h2>
+                <b>District:</b> Pudukkottai <br>
+                <b>HeadQuarters:</b> Pudukkottai <br>
+                <b>State: </b>TamilNadu
+               <h2> Area:</h2>
+                <b>Total:</b> 4663 Sq.Kms <br>
+               <b> Rural: </b> 1301991 <br>
+               <b> Urban: </b316354  <br>
+               <b> Forest:</b> 263.63 Sq.Ms <br>
+                <h2>Population:</h2>
+               <b> Total: </b>1618345
+              <br> <b> Male:</b> 803188 <br>
+               <b> Female: </b> 815157
+           </td>
+          <td>
+            <h1>DEPARTMENTS</h1>
+            <a style="color: rgb(223, 95, 21);text-decoration: none;" href="#" >
+    <pre>
+    Agriculture
+    Co-operation  
+    Food 
+    Consumer Protection
+    Education
+    District Supply
+    Consumer Protection
+    Public Health 
+    Preventive Medicine
+    District Adi Dravida Welfare
+    District Backward Class Welfare
+    District Industries Centre
+    </pre>
+            </a>
+          </td>
+    </tr>
+   <table class="about"  border="1">
+    <tr>
+        <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15697.92561714762!2d78.80012899999998!3d10.383286499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00782d25029679%3A0x4503e2d3b4a3897f!2sPudukkottai%2C%20Tamil%20Nadu%20622003!5e0!3m2!1sen!2sin!4v1708599606614!5m2!1sen!2sin" width="400" height="400"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">map</iframe></td>
+        <td align="center" id="basic">
+            <h3>Citizen Corner</h3>
+            <a href="#" style="color: rgb(192, 19, 126);">
+                Online Services - Land
+                RTI
+                Online GPF
+                Citizen Charter
+                Grievance Redressal
+            </a>
+           </td>
+            <td align="center" id="basic">
+           <h3>Quick Links</h3>
+           <a href="#" style="color: rgb(192, 19, 126);" >
+            Who's Who
+            CSCs
+            Contact Directory
+            Elected Representatives
+           </a></td>
+           <td align="center" id="basic">
+            <h3>Tourism</h3>
+            <a href="#" style="color: rgb(192, 19, 126);" >
+            How to Reach
+            Places of Interest
+            Events & Festivals
+            Tourist Information
+        </a></td>
+   </table>
+   <hr>
+   <div ><nav id="below"  style="background-color: black;"  >  
+    <pre align="center" > 
+        <a href="#" style="color: ghostwhite;">WEBSITE POLICIES</a>         <a style="color: ghostwhite;" href="#">HELP</a>       <a href="#" style="color: ghostwhite;">CONTACT US</a>       <a href="#" style="color: ghostwhite;">FEEDBACK</a></pre></nav></div>
+   <div id="below">
+    <p align="center">Content Owned by Pudukkottai District Administration
+        © Content Owned And Maintained By Pudukkottai District Administration , Developed And Hosted by<a href="#">National Informatics Centre</a>,
+        <a href="#">Ministry Of Electronics & Information Technology</a>, Government Of India
+        <br>
+       <b> Last Updated: Feb 21, 2024</b></p>
+       <hr>
+       <table class="about" >
+        <tr><td align="center"><img height="50" width="100"src="assets/swass.jfif" alt=""></td>
+        <td align="center"><img  height="50" width="100"src="assets/nic.jfif" alt=""></td>
+        <td align="center"><img height="50" width="100" src="assets/digitalindia.png" alt=""></td></tr>
+       </table>
+   </div>
+    
+</body>
+</html>
+
+
+
+tiruchy
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIRUCHY</title>
+    <link rel="stylesheet" href="maps.css">
+</head>
+<body>
+    <table border="1" width="885px">
+        <tr>
+            <td>
+                <img width="100px" src="assets/Tamil_Nadu_Emblem.png" alt=""><h1 style="float: right;">திருச்சிராப்பள்ளி  <br>
+                    TIRUCHIRAPPALLI DISTRICT</h1></td>
+            <td><img src="assets/Azadi-Ka-Amrit-Mahotsav-Logo.png"alt="" width="200" height="50" align="right"></td>
+        </tr>
+
+
+    </table>
+
+    <div class="red">
+        <nav class="navthan">
+            <pre > <a href="tiruchy.html"> HOME</a>   <a href="blank.html">ABOUT DISTRICT</a>  <a href="blank.html">DEPARTMENTS</a>  <a href="blank.html">DIRECTORY</a>     <a href="blank.html">TOURISMS</a>  <a href="blank.html">DOCUMENT</a>  <a href="blank.html">CITIZENSERVICES</a>  <a href="blank.html">MEDIA CORNER</a>   <a float="right" href="blank.html">=MORE</a>
+            </pre>
+             
+         </nav>
+    </div>
+    <div class="tiru"  >
+     
+           
+    </div>
+    <table border="1" class="about">
+        <tr>
+            <td>
+                <h1>TIRUCHY DISTRICT</h1>
+                Tiruchirappalli, situated on the banks of the river Cauvery is the fourth largest city in Tamil Nadu. It was a citadel of the early Cholas which later fell to the Pallavas. Trichy is a fine blend of tradition and modernity built around the Rock Fort. Apart from the Fort, there are several Temples dating back to the 1760s. The town and its fort, now in Trichy were built by the Nayaks of Madurai. This District has given great scholars and leaders whose contributions to the society have been very significant.
+            </td>
+           
+            <td> <img src="assets/tiruchi collector.jpg" alt="">
+            <h3 align="center">Thiru M. Pradeep Kumar I.A.S</h3></td>
+        </tr>
+    </table>
+    <table class="box" border="1"  cellspacing="18px">
+        <tr style="background-color: aliceblue;">
+            <td><h1>District Admin Units</h1>
+              <img align="right" width="90px"src="assets/revenue.png" alt="">
+              <div id="rev">
+                <h3>Revenue</h3>
+                <p>Division : 4
+                    Taluks : 11
+                    Firkas : 43
+                    Revenue Village: 507
+                </p>
+            </div>
+            <div id="develope">
+                <img align="right" width="90px" src="assets/development.png" alt="" >
+                <h3>Development</h3>
+                <p>
+Block : 14 <br>
+Village Panchayat : 404
+                </p>
+            </div>
+                 <img align="right" width="90px"src="assets/localbodies.png" alt="">
+                <div id="lb">
+                    <h3>Local Bodies</h3>
+                    <p>
+                        Corporations : 1 <br>
+                        Municipalities: 5 <br>
+                        Town Panchayats : 14 <br>
+                       
+
+                    </p>
+                </div>
+                <img align="right" width="90px"src="assets/constituency.png" alt=""> 
+                <div id="con">
+                    <h3>Constituencies</h3>
+                    <p>
+  
+Assembly : 9 <br>
+Parliament : 1
+                    </p>
+                </div>
+</td>
+            <td style="color: darkgreen;">
+                <h1>District At a Glance</h1>
+                <h2>General:</h2>
+                <b>District:</b>Tiruchirappalli <br>
+                <b>HeadQuarters:</b> Tiruchirappalli <br>
+                <b>State: </b>TamilNadu
+               <h2> Area:</h2>
+                <b>Total:</b> 4403.83 Sq.Ms <br>
+               <b> Rural: </b>335321.77 Sq.Ms <br>
+               <b> Urban: </b> 4337.86 Sq.Ms <br>
+               <b> Forest:</b>  263.63 Sq.Ms <br>
+                <h2>Population:</h2>
+               <b> Total: </b>2722290
+              <br> <b> Male:</b> 1352284 <br>
+               <b> Female: </b> 1370006
+
+               </td>
+            <td><h1 align="center">Departments</h1>
+              <pre align="center" >
+                  
+<a href="blank.html"  style="color: rgb(223, 95, 21);text-decoration: none;" >Agriculture
+    Adi Drvidar Welfare
+    BC/MBC/DNC and Minorities Welfare
+    District Industry Centre
+    Tamil Development
+    Revenue Department
+    Department for the Welfare&
+    of Differently Abled Person</a>
+              </pre></td>
+    </tr>
+   <table class="about" border="1">
+    <tr>
+        <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2006260.0315128823!2d78.587407!3d10.851307!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1708707588599!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        <td align="center" id="basic">
+            <h3>Citizen Corner</h3>
+            <a href="blank.html" style="color: rgb(192, 19, 126);">
+                Online Services - Land
+                RTI
+                Online GPF
+                Citizen Charter
+                Grievance Redressal
+            </a>
+           </td>
+            <td align="center" id="basic">
+           <h3>Quick Links</h3>
+           <a href="blank.html" style="color: rgb(192, 19, 126);" >
+            Who's Who
+            CSCs
+            Contact Directory
+            Elected Representatives
+           </a></td>
+           <td align="center" id="basic">
+            <h3>Tourism</h3>
+            <a href="blank.html" style="color: rgb(192, 19, 126);" >
+            How to Reach
+            Places of Interest
+            Events & Festivals
+            Tourist Information
+        </a></td>
+    </tr>
+   </table>
+   <hr>
+   <div ><nav id="below"  style="background-color: black;"  >  
+    <pre align="center" > 
+        <a href="#" style="color: ghostwhite;">WEBSITE POLICIES</a>         <a style="color: ghostwhite;" href="#">HELP</a>       <a href="#" style="color: ghostwhite;">CONTACT US</a>       <a href="#" style="color: ghostwhite;">FEEDBACK</a></pre></nav></div>
+   <div id="below">
+    <p align="center">Content Owned by District Administration
+        © Content Owned And Maintained By Tiruchirappalli District Administration <br> Developed And Hosted By <a href="blank.html">National Informatics Centre</a>,
+        <a href="blank.html">Ministry Of Electronics & Information Technology</a>, Government Of India
+        <br>
+       <b> Last Updated: Feb 22, 2024</b></p>
+       <hr>
+       <table class="about" >
+        <tr><td align="center"><img height="50" width="100" src="assets/swass.jfif" alt=""></td>
+        <td align="center"><img  height="50" width="100" src="assets/nic.jfif" alt=""></td>
+        <td align="center"><img height="50" width="100"src="assets/digitalindia.png" alt=""></td></tr>
+       </table>
+   </div>
+    
+</body>
+</html>
+
+
+
+
+map.css
+
+
+
+
+#india{
+    border: 40px solid ;
+   border-width: 10px;
+   border-color: black;
+}
+.red{
+    width: 885px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+   
+}
+.red a{
+    color: red;
+    text-decoration: none;
+}
+.box h1{
+    color: black;
+}
+.box #rev{
+    color: green;
+}
+.box #develope{
+    color:rgb(21, 109, 192);
+}
+.box #lb{
+    color: red;
+}
+.box #con{
+    color: cadetblue;
+}
+.depa a{
+    color:rgb(223, 95, 21);
+    text-decoration: none;
+}
+
+.animi{
+    width: 885px;
+    height: 400px;
+    animation-name:pudu;
+    animation-iteration-count: infinite;
+    animation-duration: 3s ;
+    /* animation-direction:alternate; */
+    animation-fill-mode: both;
+
+}
+
+@keyframes pudu{
+    0%{
+        background-image: url(assets/pattukkotai\ court.jpg);
+        background-repeat: no-repeat;
+        background-size: 885px;
+    }
+    50%{
+        
+        background-image: url(assets/chithanavasal2.jfif);
+        background-size: 885px;
+    }
+  
+    100%{
+        background-image: url(assets/pudukkottai\ collectrate-district.jpg);
+        background-repeat: no-repeat;
+        background-size: 885px;
+    }
+      
+
+}
+.thanjai{
+    width: 885px;
+    height: 400px;
+    animation-name: tha;
+    
+    animation-iteration-count: infinite;
+    animation-duration: 3s ;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+@keyframes tha{
+    0%{
+        background-image: url(assets/thanjavurtemple.jpg);
+        background-size: 885px;
+    }
+    50%{
+        
+        background-image: url(assets/kallanai.jpg);
+        background-size: 885px;
+    }
+    
+    100%{
+       
+        background-image: url(assets/thanjavurtemple2.jfif);
+        background-repeat: no-repeat;
+        background-size: 885px;
+
+    }
+}
+.naga{
+    width: 880px;
+    height: 400px;
+   
+    animation-name: nagap;
+    animation-iteration-count: infinite;
+    animation-duration: 4.2s ;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+@keyframes nagap{
+    0%{
+        background-image: url(assets/kodiyakkarai.jpg);
+    }
+    50%{
+    background-image: url(assets/mangrove\ forest.jpg);
+
+    }
+    100%{
+        background-image: url(assets/marine\ fishing.jpg);
+
+    }
+}
+.tiru{
+    width: 885px;
+    height: 400px;
+
+    animation-name: tir;
+  
+    animation-iteration-count: infinite;
+    animation-duration: 4.2s ;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+}
+@keyframes tir{
+    0%{
+        background-image: url(assets/iit.jpg);
+    }
+    50%{
+    background-image: url(assets/rock\ fort.jpg);
+
+    }
+    100%{
+        background-image: url(assets/srirangams.jpg);
+
+    }
+}
+.slideshow{
+    width:885px;
+    height: 400px;
+    
+    animation-name: ari;
+    
+    animation-iteration-count: infinite;
+    animation-duration: 5s ;
+    animation-direction:reverse;
+    animation-fill-mode: both;
+
+}
+
+@keyframes ari{
+    0%{
+        background-image: url(assets/Karaivetti\ Bird\ Sanctuary.jpeg);
+        background-size: 885px;
+    }
+    50%{
+    background-image: url(assets/gangaikonda.jpeg);
+    background-size: 885px;
+
+    }
+    100%{
+        background-image: url(assets/ARIYALUR\ collectrote.jpg);
+        background-size: 885px;
+    }
+}
+
+
+
+#below{
+    width: 885px;
+    border: 2px solid rgb(126, 123, 123);
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+}
+#basic{
+    font-size: 16px;
+}
+.about{
+    width: 885px;
+    
+}
+.box{
+    width: 885px;
+    height: 400px;
+    
+    background-color: rgb(241, 228, 222);
+}
+.bot{
+    background-color: rgb(114, 98, 98);
+}
+.blas{
+    margin-left: 250px;
+    margin-top: 50px;
+    border: 2px dotted black;
+    width: 500px;
+    height: 300px;
+    background-image:linear-gradient(to top,red,green,yellow
+    )
+    ;
+}
