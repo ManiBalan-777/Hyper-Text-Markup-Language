@@ -14,7 +14,7 @@
     justify-content: space-between;
     cursor: pointer;
     margin-top: 16px;
-    
+
     
 }
 .bar{
@@ -33,10 +33,7 @@
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction:normal;
-    /* animation-fill-mode: forwards;
-    
-    */
-
+   
 }
 @keyframes img{
     0%{
@@ -79,12 +76,15 @@
 }
 .two input[type=text]{
     border: 2px solid rgb(223, 169, 169);
-    width: 80px;
+    width: 60px;
 } 
 .two form{
     float: right;
-    border: 2px solid rgb(187, 21, 21);
+    border: 1px solid rgb(187, 21, 21);
     color: red;
+    width: 20px;
+    display: inline-flex;
+    margin-right: 100px;
 }
 a.two22:link{
     background-color: rgb(58, 139, 25);
@@ -113,11 +113,15 @@ a.two22:active{
    
 }
 .para{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: justify;
     text-transform:capitalize;
     text-indent: 2px 2px;
     
+}
+.para marquee{
+    color: rgb(83, 17, 204);
+    text-align: justify;
 }
 .dep{
     text-decoration: line-through;
@@ -233,12 +237,24 @@ a.two22:active{
 .dd{
     display: flex;
     justify-content: center;
-    margin-top: -150px;
+    margin-top: -400px;
     list-style-type: none;
 }
 .td1{
-    background-color:aliceblue;
+    background-color:rgb(221, 238, 253);
     width: 30%;;
+}
+.td21{
+    /* border: 2px solid rgb(10, 10, 10); */
+    background-color: rgb(216, 222, 235);
+}
+.td21 img{
+    border: 1px solid rgb(43, 101, 226);
+   
+}
+.td23{
+    background-color: rgb(194, 195, 224);
+    border: 1px solid rgb(101, 133, 155);
 }
 .dd a{
     border: 2px solid white;
