@@ -13,8 +13,7 @@
             <textarea name="" id="code" cols="30" placeholder="type something" rows="10"></textarea>
         </div>
         <div style="border: 2px solid black;width: 200px;height: 200px;float: right; flex: 1; padding: 1px;">
-            <div id="how"
-                style="border: 2px solid black;width: 200px;height: 200px;float: right; box-sizing: border-box;">
+            <div id="how">
 
             </div>
         </div>
@@ -22,12 +21,13 @@
     <script>
        const text = document.getElementById("code");
        const show = document.getElementById("how");
-        function work() {
+        function work(){
             const htmlcode = text.value;
             show.innerHTML = htmlcode;
+        }
             text.addEventListener("input", work);
             work();
-        }
+        
     </script>
 </body>
 
