@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="box" type="text ">
+    <input type="button" onclick="cal()" value="check">
+    <script>
+        function cal() {
+            var a = document.getElementById("box").value;
+            var re = /([a-zA-Z]*)[0-9]*@gmail.com/
+            if (a.match(re))
+                alert("verified")
+            else {
+                alert("not verified")
+            }
+
+        }
+    </script>
+</body>
+
+</html>
