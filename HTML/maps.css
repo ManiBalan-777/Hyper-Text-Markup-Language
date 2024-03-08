@@ -25,12 +25,12 @@
 .slideshow img{
     animation:slide 1s ease-in-out infinite;
 } */
-.animi{
-    width: 1300px;
+.puduk{
+    width: 885px;
     height: 400px;
     animation-name:pudu;
     animation-iteration-count: infinite;
-    animation-duration: 10s ;
+    animation-duration: 4s ;
     animation-direction: alternate;
     animation-fill-mode: both;
 
@@ -38,25 +38,24 @@
 
 @keyframes pudu{
     0%{
-        background-image: url(assets/chithanavasal1.jfif);
-
-    }
+        background-image: url(assets/manamelkudi.webp);
+        background-repeat: no-repeat;
+        width: 885px;
+    
+        }
   
     
+    
     50%{
-    background-image: url(assets/manamelkudi.webp);
-    background-repeat: no-repeat;
-    width: 1300px;
-
-    }
-    60%{
         background-image: url(assets/Fort_of_thirumayam.jpg);
         background-repeat: no-repeat;
+        width: 885px;
     }
   
     100%{
         background-image: url(assets/collectoroffice.jpeg);
         background-repeat: no-repeat;
+        background-size: 885px;
 
     }
 }
