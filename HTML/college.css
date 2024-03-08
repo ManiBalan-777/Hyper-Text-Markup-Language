@@ -67,7 +67,7 @@
     text-decoration: none;
 }
 .two{
-   /* background-color: rgb(155, 163, 211); */
+   
    background-image: linear-gradient(to right,rgba(58, 82, 216, 0.952),rgba(155, 163, 211, 0.582));
 
     border: 2px solid rgb(247, 247, 247);
@@ -113,7 +113,7 @@ a.two22:active{
    
 }
 .para{
-    /* border: 2px solid black; */
+
     text-align: justify;
     text-transform:capitalize;
     text-indent: 2px 2px;
@@ -223,8 +223,7 @@ a.two22:active{
     float: left;
     display: flexbox;
     margin-left: -32px;
-    /* margin-top: -500px; */
-   
+    
 }
 .dd li:nth-child(1):hover.csee{
    display: inline;
@@ -245,7 +244,7 @@ a.two22:active{
     width: 30%;;
 }
 .td21{
-    /* border: 2px solid rgb(10, 10, 10); */
+    
     background-color: rgb(216, 222, 235);
 }
 .td21 img{
@@ -274,7 +273,7 @@ a.two22:active{
 }
 .right{
    
-    /* border:1px solid black; */
+   
     width: 70%;
    
 }
@@ -288,25 +287,23 @@ a.two22:active{
     animation-name: ya;
     animation-iteration-count: infinite;
     animation-duration: 5s;
-    /* animation-fill-mode: both; */
-    /* animation-direction:alternate; */
+ 
 }
 @keyframes ya{
     0%{
         background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
-        /* border: 2px solid black; */
-        background-size: cover;
+                background-size: cover;
         margin-left: 600px;
         margin-top: 100px;
     }
     30%{ background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
-        /* border: 2px solid black; */
+      
         background-size: cover;
         margin-left: 400px;
 
     }
     10%{background-image: url(assets/gce\ CSE\ dept\ 1.jpg);
-        /* border: 2px solid black; */
+      
         background-size: cover;
         margin-left: 0px;
 
@@ -338,49 +335,3 @@ a.two22:active{
         margin-left: 500px;
     }
 }
-/* .slider{
-    display:flex;
-    transition: transform o.5s ease;
-}
-
-.slide-container{
-    position: relative;
-    max-width: 500px;
-    overflow: hidden;
-}
-/* .slides{
-    display: flex;
-    transition: transform 0.5s ease;
-} */
-/* .slide{
-    flex: 0 0 auto;
-    width:100%;
-}
-.slide img{
-    width: 100%;
-    height: auto;
-}
-.slider input:checked + .slides{
-    transform: translateX(-100%);
-}
-.slide{
-    width: 100%;
-} */
-/* a.test:link{
-    background-color: rgb(5, 5, 5);
-    color: #000;
-    cursor:-webkit-grabbing;
-}
-a.test:visited
-{
-    background-color: pink;
-    
-}
-a.test:hover{
-    background-color: lightgreen;
-}
-a.test:active{
-    background-color:bisque ;
-    color: black;
-
-} */

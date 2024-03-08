@@ -44,7 +44,7 @@
              <a class="two22"href="">ACADEMICS</a>
              <a class="two22"href="">RESEARCH AND DEVELOPMENT</a>
              <a class="two22"href="">ADMISSION</a>
-             <!-- <a href="">ACTIVITIES</a> -->
+            
              <a class="two22"href="">FACILITIES</a>
              <a class="two22"href=""> COMMITTEES</a>
              <a class="two22"href="">ESTATE OFFICE</a>
@@ -203,7 +203,7 @@
     const vm=document.getElementById("a2");
     const peo=document.getElementById("a3");
     const pso=document.getElementById('a4');
-    // const faculty=document.getElementById('a5');
+   
     const nts=document.getElementById('a6');
     const facility=document.getElementById('a7');
     const activity=document.getElementById('a8');
@@ -214,7 +214,7 @@
         "a2":"<h2>VISION</h2><p> To be a prominent and renowned department recognized as competent Engineers in a myriad of application areas with research and innovation Ideas.<h2>MISSION</h2> To articulate the new ideas in the field of Computer Science and Engineering with software and problem solving skills, leadership qualities, team spirit.To impact the ethical responsibilities, helping the students to contribute positively to the economic well being of our nation and to tackle the complex technological challenges of the future world.</p>",
         "a3":"<h2>PEO</h2><p>Graduates of Computer Science and Engineering will -utilize the fundamental knowledgeof basic sciences and engineering to succeed in their professional career.- acquireexperiential learning to analyze, design, implement and verify computer-based solutions to real world problems. <h2>PO</h2>Engineering Graduates will be able to:1. Engineering knowledge: Apply the knowledge of mathematics, science, engineeringfundamentals, and an engineering specialization to the solution of complex engineering problems.<br>2. Problem analysis: Identify, formulate, review research literature, and analyze complexengineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.<br>3. Design/development of solutions: Design solutions for complex engineering problems anddesign system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.<br>4. Conduct investigations of complex problems: Use research-based knowledge and researchmethods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.<br>5. Modern tool usage: Create, select, and apply appropriate techniques, resources, and modernengineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.<br>6. The engineer and society: Apply reasoning informed by the contextual knowledge to assesssocietal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.<br>7. Environment and sustainability: Understand the impact of the professional engineering solutionsin societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.<br>8. Individual and team work: Function effectively as an individual, and as a member or leader indiverse teams, and in multidisciplinary settings.<br>9. Communication: Communicate effectively on complex engineering activities with the engineeringcommunity and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.</p>",
         "a4":'<h2>PSO</h2><p>1. Foundations of Computer Science: Ability to use the mathematical and computing knowledge to propose viable ideas and solutions to solve real world problems.<br>2. Software design and Development: Ability to apply computer science knowledge for providing computer based solutions using professional skills, knowledge of software design process, programming languages and tools.</p>',
-        // "a5":"<h2>FACULTY</h2><button  ><a href=faculty.html>GOBACKTOCSEHOME</a></button>",
+    
         "a6":"<h2>NON TEACHING STAFF </h2><p><h2>SENDHILKUMAR M</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DECE,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Artisan Grade II&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sendhilkumarmm@gcetj.edu.in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9976997251 <br>\n<h2>MURUGAPANDIAN V</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.Comp.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tech	Lab Assistant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;murugapandianv@gcetj.edu.in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9865242180 <br><h2>VIMALPRASATH D</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	D.Com.Engg ,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; BCA, MCA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lab Assistant	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vimalprasathd@gcetj.edu.in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9994576738  <br>       <h2>THIRUGNANAM K</h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	        D.Comp.Tech	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lab Assistant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; thirugnanamk@gcetj.edu.in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	8668164354  <br><h2>DHEEPA R</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D.Comp.Tech&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lab Assistant&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dheepar@gcetj.edu.in        	9942427283</p>",
         "a7":"<h2>FACILITIES</h2><p> Two Number of spacious and well equipped laboratories with 100  networked systems  with UPS, <br> Printer  support the various laboratories<br> Computer programming Graphics Lab  <br>Object oriented programming Lab (OOPS Lab) <br> Language Processor Lab Network  <br> OS Lab Internet & Project Lab</p>",
         "a8":"<h2>CO-CURRICULAR ACTIVITY</h2><p>*)CLUBS<br>    *)SUMMER PROGRAMS <br>*)INTERNSHIP<br>*)TEACHING AND MENTORING<br>*)SELF-DRIVEN PROJECTS<br>*)HACATHONS</p>",
@@ -239,18 +239,7 @@
         event.preventDefault();
         loadContent("a4");
     });
-    // faculty.addEventListener('click',function(event){
-    //     event.preventDefault();
-    //     loadContent("a5");
-    // });
-    // document.getElementById("dd").addEventListener('change',function(){
-    //     var sp=this.value;
-    //     document.getElementById("frame").src=sp;
-    // });
-    // function changeLocation(link){
-    //     var dest=link.getAttribute("href");
-    //     window.location.href=destnation;
-    // }
+    
     nts.addEventListener('click',function(event){
         event.preventDefault();
         loadContent("a6");
@@ -270,31 +259,7 @@
             frame.location.href=url;
         }
     }
-    // const slider=document.querySelector('.slider');
-    // const slides=document.querySelectorAll('.slide');
-    
-    // let slideIndex=0;
-    // function nextSlide(){
-    //     if(slideIndex===slides.length){
-    //         slideIndex=0;
-    //     }const offset= -slideIndex * slides[0].offsetWidth;
-    //     slider.style.transform='translateX(-${offset}px)';
-    // }
-    // setInterval(nextSlide,2000)
-    // function loadPage(url,frameName){
-    //     var frame=document.getElementById(frameName);
-
-        
-    //         frame.src=url;
-    //     }
-    
-    // function loadPage(url,frameName){
-    //     var frame=document.getElementById(frameName);
-    //     if(!frame.contentWindow.document.body.innerHTTML.trim()){
-    //         frame.src=url;
-    //     }
-    // }
-    
+   
 </script>
 
 

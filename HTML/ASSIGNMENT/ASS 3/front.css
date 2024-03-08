@@ -1,0 +1,50 @@
+.left{
+    /* border: 2px solid #000000; */
+    margin-top: 20px;
+    width: 100%;
+    height:600px;
+   }
+.left a{
+    
+    border: 1px solid rgb(10, 22, 10);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    text-decoration: none;
+    width: 300px;
+    background-color: rgb(13, 165, 51);
+    color: white;
+    border-radius: 5px;
+}
+.bor{
+    border: 2px solid green;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    background-color: lightgreen;
+    
+}
+.table{
+    border-collapse: collapse;
+    color: green;
+}
+.button{
+    border-color: greenyellow;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+}
+#result1{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    width: 200px;
+    height: 200px;
+}
+#result2{
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+    width: 200px;
+    height: 200px;
+}

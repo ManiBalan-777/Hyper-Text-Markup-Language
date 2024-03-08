@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exp3</title>
+    <link rel="stylesheet" href="exp3.css">
+</head>
+<body>
+    
+        <form action="#">
+            <b>Existing User?<a id="create" href="exp3.html#username">Log In</a></b>
+            <input type="text" id="username" placeholder="USERNAME"> 
+            <input type="text" id="password" placeholder="PASSWORD"> 
+            <input type="submit" id="submit" value="Login">
+            <!-- <a id="fb" href="#"> Login With Facebook</a> 
+            <a id="gle" href="#">Login With Gooogle</a> 
+            <i class="fa-brands fa-facebook-f"></i>
+            <a id="twr" href="#">Login With Twitter</a>  -->
+            <b>New User?<a id="create" href="#">Create an Account</a></b> 
+        </form>
+    
+    <script>
+        var usname=document.getElementById("username");
+        var pass=document.getElementById("password");
+        var subbut=document.getElementById("submit");
+        subbut.addEventListener("mouseover",(button)=>{
+        let uname=usname.value;
+        let pwd=pass.value;
+        let validate=/^[a-zA-Z][a-zA-z0-9]{3,20}$/.test(uname)&&/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-z]).{8,}$/.test(pwd)
+        if(!validate)
+        {
+            button.target.classList.toggle("move");
+            subbut.style.background="red"
+        } 
+        else{
+            button.target.classList.add("stop");
+            subbut.style.background="green"
+           
+            alert("logged In Successfully>>>")
+        }
+        })
+    </script>
+</body>
+</html>

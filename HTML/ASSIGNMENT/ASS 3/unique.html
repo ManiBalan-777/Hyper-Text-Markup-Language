@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>UNIQUE</title>
+        <link rel="stylesheet" href="front.css">
+        <script>
+            function unique()
+            {
+                var arr1=new Array();
+                var arr2=new Array();
+                var n=document.getElementById("input").value;
+                var temp=0;
+                for(var i=0;i<n;i++)
+                {
+                    arr1[i]=parseInt(window.prompt("enter the value"+(i+1)));
+                }
+                for(var i=0;i<n;i++)
+                {
+                    if(i==0)
+                    arr2.push(arr1[i]);
+                    for(j=0;j<arr2.length;j++)
+                    {
+                       if(arr1[i]==arr2[j])
+                       temp++ 
+                    }
+                    if(temp==0)
+                    arr2.push(arr1[i]);
+                temp=0;
+                }
+                document.getElementById("output").value=arr2;
+                }
+        </script>
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+            <table class="table" border="0" cellpadding="4px" width="500px">
+                <caption> <h1>UNIQUE ELEMENTS</h1></caption>
+                <tr>
+                    <td><label for="">ENTER THE NUMBER:</label></td>
+                    <td> <input type="text" id="input"></td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2" align="center"> <input class="BUTTON" type="button" onclick="unique()" value="CLICK">
+                </tr>
+               
+                <tr>
+                  <td> <label for="">UNIQUE NO IS:</label></td>
+                    <td >  <input type="text" id="output"></td>
+                </tr>
+            </table>
+        </form>
+    </div>       
+     
+    </body>
+</html>
