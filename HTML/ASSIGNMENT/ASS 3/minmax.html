@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>LARGEST AND SMALLEST NUMBERS</title>
+        <link rel="stylesheet" href="front.css">
+        
+        <script>
+            function find()
+            {
+                var arr=new Array();
+                var n=document.getElementById("input").value;
+                for(var i=0;i<n;i++)
+                {
+                    arr[i]=Number(window.prompt("Enter the Array Element "+(i+1)));
+                }
+                for(var i=0;i<n;i++)
+                {
+                    for(var j=0;j<n;j++)
+                    {
+                        if(arr[j]>arr[j+1])
+                        {
+                            temp=arr[j];
+                            arr[j]=arr[j+1];
+                            arr[j+1]=temp;
+                        }    
+                    }
+                }
+                alert(arr);
+                document.getElementById("output max").value=arr[arr.length-1];
+                document.getElementById("output min").value=arr[0];
+            }
+        </script>
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+        <table class="table" border="0" cellpadding="4px" width="500px">
+            <caption><h1>FIND LARGEST AND SMALLEST NUMBER</h1></caption>
+            <tr>
+                <td>ENTER THE NUMBER</td>
+                <td><input type="text" id="input"></td>
+            </tr>
+            <tr>
+              
+                <td colspan="2" align="center"><input class="button" type="button" onclick="find()" value="FIND"></td>
+            </tr>
+            <tr>
+                <td>LARGEST NUMBER</td>
+                <td><input type="text" id="output max"></td>
+            </tr>
+            <tr>
+                <td>SMALLEST NUMBER</td>
+                <td><input type="text" id="output min"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+    </body>
+</html>

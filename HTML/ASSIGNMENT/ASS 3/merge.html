@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Merge Sorted Array</title>
+        <link rel="stylesheet" href="front.css">
+        
+        <script>
+            function merge()
+            {
+                var arr1=new Array();
+                var arr2=new Array();
+                // var n=document.getElementById("input").value;
+                var temp=0;
+                var num1=parseInt(window.prompt("Array1"));
+                for(var i=0;i<num1;i++)
+                arr1[i]=parseInt(window.prompt("Enter the Array Element for 1st Array"));
+                for(var i=0;i<num1;i++)
+                {
+                    for(var j=0;j<num1;j++)
+                    {
+                        if(arr1[j]>arr1[j+1])
+                        {
+                            temp=arr1[j];
+                            arr1[j]=arr1[j+1];
+                            arr1[j+1]=temp;
+                        }    
+                    }
+                }
+                var num2=parseInt(window.prompt("Array 2"));
+                for(var i=0;i<num2;i++)
+                    arr2[i]=parseInt(window.prompt("Enter the Array Element for 2nd Array"));
+                for(var i=0;i<num2;i++)
+                {
+                    for(var j=0;j<num2;j++)
+                    {
+                        if(arr2[j]>arr2[j+1])
+                        {
+                            temp=arr2[j];
+                            arr2[j]=arr2[j+1];
+                            arr2[j+1]=temp;
+                        }    
+                    }
+                }
+                var mergearray=new Array();
+                var temp2=0;
+                var i=0;j=0;
+                while((i<num1) &&(j<num2))
+                {
+                    if(arr1[i]<arr2[j])
+                    mergearray[temp2++]=arr1[i++];
+                    else
+                    mergearray[temp2++]=arr2[j++];
+                }
+                while(i<num1)
+                mergearray[temp2++]=arr1[i++];
+                while(j<num2)
+                mergearray[temp2++]=arr2[j++];
+            alert(mergearray);
+            document.getElementById("output").value=mergearray;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+            <table class="table" border="0" cellpadding="4px" width="500px">
+                <caption> <h1>MERGE THE SORTED ARRAYS</h1></caption>
+                <tr>
+                    <td colspan="2" align="center"> <input type="text" id="input" placeholder="only 2 array"></td>
+                    
+                </tr>
+                <tr>
+                    
+                    <td colspan="2" align="center"> <input class="button" type="button"  onclick="merge()" value="Press Here To Input The Array Values"> 
+                </tr>
+               
+                <tr>
+                  <td> <label for="">Merged Sorted Array Is:</label></td>
+                    <td >  <input type="text" id="output"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    </body>
+</html>

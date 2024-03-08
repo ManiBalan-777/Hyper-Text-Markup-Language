@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>LIST OF PRIME NUMBERS</title>
+        <link rel="stylesheet" href="front.css">
+        <script>
+            function show()
+            {
+             var arr=[];
+             var n=document.getElementById("input").value;
+             var flag=0;
+             var lv=0;
+                if(n>0)
+                {
+                 for(var i=1;i<=n;i++)
+                 {
+                     for( var j=1;j<=i;j++)
+                     {
+                     if(i%j==0)
+                         flag++;
+                 }
+                 if(i!=1 && flag<=2)
+                 {
+                    arr[lv++]=i;
+                 }
+                 flag=0;
+                  }
+                }
+                else 
+                alert("erroer");
+            document.getElementById("output").value=arr;
+            }
+         </script>
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+            
+        <table class="table" border="0" cellpadding="4px" width="500px">
+            <caption><h1>PRIME NUMBERS</h1></caption>
+            <tr>
+                <td><label>ENTER A NUMBER UP:</label></td>
+                <td><input type="text" id="input"> </td>
+            </tr>
+            <tr>
+                
+                <td colspan="2" align="center"><input class="button" type="button" onclick="show()"  value="LIST"></td>
+            </tr>
+            <tr>
+                <td>RESULT</td>
+                <td> <input type="text" id="output"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+        
+           </body>
+</html>

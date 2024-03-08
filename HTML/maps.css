@@ -3,41 +3,63 @@
    border-width: 10px;
    border-color: black;
 }
-.navthan{
+.red{
     width: 885px;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 2px solid black;
    
 }
-/* .slideshow img{
-  display: none;
+.red a{
+    color: red;
+    text-decoration: none;
 }
-.slideshow img:first{
-    display: block;
+.box h1{
+    color: black;
 }
-@keyframes slide{
-    0%{ opacity: 0;}
-    100%{
-        opacity: 1;
-    }
+.box #rev{
+    color: green;
 }
+<<<<<<< HEAD
 .slideshow img{
     animation:slide 1s ease-in-out infinite;
 } */
 .puduk{
+=======
+.box #develope{
+    color:rgb(21, 109, 192);
+}
+.box #lb{
+    color: red;
+}
+.box #con{
+    color: cadetblue;
+}
+.depa a{
+    color:rgb(223, 95, 21);
+    text-decoration: none;
+}
+
+.animi{
+>>>>>>> 2c57dd93d1e0cb5fa801440907211649fd663505
     width: 885px;
     height: 400px;
     animation-name:pudu;
     animation-iteration-count: infinite;
+<<<<<<< HEAD
     animation-duration: 4s ;
     animation-direction: alternate;
+=======
+    animation-duration: 3s ;
+    /* animation-direction:alternate; */
+>>>>>>> 2c57dd93d1e0cb5fa801440907211649fd663505
     animation-fill-mode: both;
 
 }
 
 @keyframes pudu{
     0%{
+<<<<<<< HEAD
         background-image: url(assets/manamelkudi.webp);
         background-repeat: no-repeat;
         width: 885px;
@@ -50,14 +72,29 @@
         background-image: url(assets/Fort_of_thirumayam.jpg);
         background-repeat: no-repeat;
         width: 885px;
+=======
+        background-image: url(assets/pattukkotai\ court.jpg);
+        background-repeat: no-repeat;
+        background-size: 885px;
+    }
+    50%{
+        
+        background-image: url(assets/chithanavasal2.jfif);
+        background-size: 885px;
+>>>>>>> 2c57dd93d1e0cb5fa801440907211649fd663505
     }
   
     100%{
-        background-image: url(assets/collectoroffice.jpeg);
+        background-image: url(assets/pudukkottai\ collectrate-district.jpg);
         background-repeat: no-repeat;
         background-size: 885px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2c57dd93d1e0cb5fa801440907211649fd663505
     }
+      
+
 }
 .thanjai{
     width: 885px;
@@ -73,10 +110,12 @@
 @keyframes tha{
     0%{
         background-image: url(assets/thanjavurtemple.jpg);
+        background-size: 885px;
     }
     50%{
         
         background-image: url(assets/kallanai.jpg);
+        background-size: 885px;
     }
     
     100%{
@@ -87,8 +126,8 @@
 
     }
 }
-.slideshow{
-    width: 1300px;
+.naga{
+    width: 880px;
     height: 400px;
    
     animation-name: nagap;
@@ -111,11 +150,11 @@
 
     }
 }
-.slideshow{
-    width: 1300px;
+.tiru{
+    width: 885px;
     height: 400px;
 
-    animation-name: tiru;
+    animation-name: tir;
   
     animation-iteration-count: infinite;
     animation-duration: 4.2s ;
@@ -123,7 +162,7 @@
     animation-fill-mode: both;
 
 }
-@keyframes tiru{
+@keyframes tir{
     0%{
         background-image: url(assets/iit.jpg);
     }
@@ -137,14 +176,14 @@
     }
 }
 .slideshow{
-    width: 1300px;
+    width:885px;
     height: 400px;
     
     animation-name: ari;
     
     animation-iteration-count: infinite;
-    animation-duration: 4.2s ;
-    animation-direction: alternate;
+    animation-duration: 5s ;
+    animation-direction:reverse;
     animation-fill-mode: both;
 
 }
@@ -152,14 +191,16 @@
 @keyframes ari{
     0%{
         background-image: url(assets/Karaivetti\ Bird\ Sanctuary.jpeg);
+        background-size: 885px;
     }
     50%{
     background-image: url(assets/gangaikonda.jpeg);
+    background-size: 885px;
 
     }
     100%{
         background-image: url(assets/ARIYALUR\ collectrote.jpg);
-
+        background-size: 885px;
     }
 }
 
@@ -181,8 +222,19 @@
 .box{
     width: 885px;
     height: 400px;
+    
     background-color: rgb(241, 228, 222);
 }
 .bot{
     background-color: rgb(114, 98, 98);
+}
+.blas{
+    margin-left: 250px;
+    margin-top: 50px;
+    border: 2px dotted black;
+    width: 500px;
+    height: 300px;
+    background-image:linear-gradient(to top,red,green,yellow
+    )
+    ;
 }

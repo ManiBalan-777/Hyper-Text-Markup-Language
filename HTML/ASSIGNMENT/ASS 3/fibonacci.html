@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>FIBBONACCI SERIES</title>
+        <link rel="stylesheet" href="front.css">
+    </head>
+    <body>
+        <div class="bor" align="center" >
+        <form>
+        <table class="table" border="0" cellpadding="4px" width="500px">
+            <caption><h1><h1>FIBONOCCI SERIES</h1></h1></caption>
+            <tr>
+                <td>ENTER THE NUMBER</td>
+                <td><input type="text" id="input"></td>
+            </tr>
+            <tr>
+                
+                <td colspan="2" align="center"> <input class="button" type="button"  onclick="fibbo()" value="FIBBO SERIES">
+            </tr>
+           
+            <tr>
+                <td>THE FIBBONACCI SERIES IS:</td>
+                <td > <input type="text" id="output"></td>
+            </tr>
+        </table>
+    </form>
+</div>            
+        <script>
+            function fibbo()
+            {
+                var n=document.getElementById("input").value;
+                var t1=0,t2=1;
+                var t3;
+                var arr=new Array();
+                if(n>0)
+                {
+                    for(var i=0;i<n;i++)
+                    {
+                        arr.push(t2);
+                        t3=t1+t2;
+                        t1=t2;
+                        t2=t3;
+                    }
+                document.getElementById("output").value=arr;
+                }
+                else
+                alert("Give me a Number");
+                
+            }
+        </script>
+    </body>
+</html>

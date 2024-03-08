@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>title case</title>
+        <link rel="stylesheet" href="front.css">
+        <script>
+            function tcase()
+            {
+                var n;
+                var str=document.getElementById("input").value;
+                n=str.length;
+                var t1;
+                var t2;
+
+                var string="";
+                
+                t1=0;
+                for(var i=0;i<n;i++)
+                {
+                    if(str.charAt(i)==" ")
+                    {
+                        t1=0;
+                    }
+                    else if(t1==0)
+                   {
+                    string=string+(str.charAt(i).toUpperCase());
+                    t1++;
+                    continue;
+                   }
+                   string=string+str.charAt(i);
+                }
+                document.getElementById("output").value=string;
+               
+            }
+        </script>
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+            <table class="table" border="0" cellpadding="4px" width="500px">
+                <caption> <h1>TITLE CASE</h1></caption>
+                <tr>
+                    <td><label for="">ENTER THE WORDS:</label></td>
+                    <td><input type="text" id="input"></td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2" align="center"> <input class="button" type="button" id="p" onclick="tcase()" value="CLICK"> 
+                </tr>
+               
+                <tr>
+                  <td> <label for="">Title Case Word Is:</label></td>
+                    <td >  <input type="text" id="output"></td>
+                </tr>
+            </table>
+        </form>
+    </div>   
+        
+        <form>
+            
+            
+        </form>
+       
+    </body>
+</html>

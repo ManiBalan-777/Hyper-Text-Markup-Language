@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>PRIME NUMBER</title>
+        <link rel="stylesheet" href="front.css">
+        <script>
+            function check()
+            {
+                var t1=document.getElementById("input").value;
+                var n=0;
+                if(t1>0)
+                {
+                    for(var i=1;i<=t1;i++)
+                    {
+                    if(t1%i===0)
+                        n++;
+                    }
+                    if(n<=2)
+                    {
+                        document.getElementById("output").value="PRIME NUMBER";
+                    }
+                    else
+                    {
+                        document.getElementById("output").value="NOT A PRIME NUMBER";
+                    }
+                }
+                else if(t1==0)
+             alert("ZERO is not a prime and not a composite number");
+                else
+                {
+                    alert("INVALID SYNTAX");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+            
+            <table class="table" border="0" cellpadding="4px" width="500px">
+                <caption><h1>PRIME OR NOT</h1></caption>
+                <tr>
+                    <td><label>ENTER A NUMBER:</label></td>
+                    <td><input type="text" id="input"></td>
+                </tr>
+                <tr>
+                    
+                    <td colspan="2"align="center"><input class="button" type="button" id="q" value="CHECK" onclick="check()"></td>
+                </tr>
+                <tr>
+                    <td><label>SO THE ABOVE NUMBER IS:</label></td>
+                    <td><input type="text" id="output"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+  
+       
+       
+    </body>
+</html>

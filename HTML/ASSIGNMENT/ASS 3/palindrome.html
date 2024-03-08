@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>PALINDROME</title>
+        <link rel="stylesheet" href="front.css">
+        <script>
+            function check()
+            {
+                var t1=document.getElementById("input").value;
+                let str="";
+                for(var i=t1.length;i>=0;i--)
+                {
+                    str=str+t1.charAt(i);
+                }
+                if(t1===str)
+                {
+                    document.getElementById("result").value="YES,THAT'S PALINDROME";
+                }
+                else
+                {
+                    document.getElementById("result").value="OOPs THAT'S NOT A PALINDROME";
+                }
+            }
+        </script>
+       
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+                <table class="table" border="0" cellpadding="4px" width="100%">
+                <caption><h1>PALINDROME OR NOT</h1></caption>
+
+                    <tr>
+                        <td><label>ENTER THE WORD:</label></td>
+                        <td><input type="text" id="input"></td>
+                    </tr>
+                    <tr >
+                        
+                        <td colspan="2"align="center">
+                            <input class="button" type="button" value="CHECK"  onclick="check()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SO THE ABOVE TEXTED WORD IS:</td>
+                        <td><input type="text" id="result"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

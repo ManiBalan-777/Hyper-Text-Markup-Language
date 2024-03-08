@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Nested Array</title>
+        <link rel="stylesheet" href="front.css">
+      
+    </head>
+    <body>
+        <div class="bor" align="center" >
+            <form>
+                <table class="table" border="0" cellpadding="4px" width="100%">
+                <caption><h1>NESTED ARRAYS</h1></caption>
+
+                    <tr align="center">
+                        <td><label>ROW SIZE:</label></td>
+                        <td><input type="text" id="input"></td>
+                    </tr>
+                    <tr >
+                        
+                        <td colspan="2"align="center">
+                            <input class="button" type="button" onclick="nest()" value="INITIALIZE">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div align="center" id="result1">
+                                <H3>TWO DIMENTIONAL ARRAY</H3>
+                            </div>
+                        </td>
+                            <td>                           
+                            <div align="center" id="result2">
+                                <H3>TWO DIMENTIONAL ARRAY</H3>
+                            </div>
+                            </td>
+
+                       
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <script>
+            function nest()
+            {
+                var row_size=document.getElementById("input").value;
+                var n;
+                var flag=0;
+                var arr1=new Array();
+                var arr2=new Array();
+                for(var i=0;i<row_size;i++)
+                {
+                    arr1[i]=[];
+                    n=window.prompt("NUMBER OF COLUMN VALUES IN ROW :"+(i));
+                    for(var j=0;j<n;j++)
+                        arr1[i].push(window.prompt("ENTER THE VALUEES :"+(j+1)));
+                }
+                alert("hi");
+               
+                for(var i=0;i<row_size;i++)
+                {
+                    document.getElementById("result1").innerHTML=
+                            document.getElementById("result1").innerHTML+"[";
+                    for(var j=0;j<arr1[i].length;j++){
+                        document.getElementById("result1").innerHTML=
+                            document.getElementById("result1").innerHTML+arr1[i][j]+"&nbsp;&nbsp;";
+                    }
+                    document.getElementById("result1").innerHTML=
+                            document.getElementById("result1").innerHTML+"]" +"<br>";
+                    
+                }
+               
+                for(var i=0;i<row_size;i++)
+                {
+                    for(var j=0;j<arr1[i].length;j++)
+                    arr2[flag++]=arr1[i][j];
+                }
+                document.getElementById("result2").innerHTML="["+arr2+"]" ;
+               
+            }
+           </script>
+        </body>
+</html>
