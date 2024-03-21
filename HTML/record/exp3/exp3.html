@@ -13,7 +13,7 @@
             <b>Existing User?<a id="create" href="exp3.html#username">Log In</a></b>
             <input type="text" id="username" placeholder="USERNAME"> 
             <input type="text" id="password" placeholder="PASSWORD"> 
-            <input type="submit" id="submit" value="Login">
+            <input type="submit" id="submit" value="Login" >
             
             <b>New User?<a id="create" href="#">Create an Account</a></b> 
         </form>
@@ -26,18 +26,26 @@
         let uname=usname.value;
         let pwd=pass.value;
         let validate=/^[a-zA-Z][a-zA-z0-9]{3,20}$/.test(uname)&&/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-z]).{8,}$/.test(pwd)
+       
         if(!validate)
         {
             button.target.classList.toggle("move");
-            subbut.style.background="#f4511e"
+            subbut.style.background="linear-gradient(to left,#f4511e,red)"
         } 
+        
         else{
-            button.target.classList.add("stop");
-            subbut.style.background="green"
            
-            alert("logged In Successfully>>>")
+            button.target.classList.add("stop");
+          
+            subbut.style.background="linear-gradient(to left,green,red)"
+          
+                alert("logged In Successfully>>>")
+            
+            }
         }
-        })
+            
+      
+        )
     </script>
 </body>
 </html>

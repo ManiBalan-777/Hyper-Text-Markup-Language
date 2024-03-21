@@ -46,7 +46,7 @@ form input[type="submit"]
     box-shadow: 5px 5px 5px;
 
 }
-form input[type="submit"]:hover{
+form input[type="submit"]:focus{
     cursor: pointer;
 }
 .stop{
@@ -55,12 +55,4 @@ form input[type="submit"]:hover{
 .move{
     transform: translateX(100%);
 }
-#fb{
-    border: 10px solid rgb(33, 96, 155) ;
-    color: rgb(255, 255, 255);
-    background-color: rgb(17, 81, 155) ;
-    width: 200px;
-    height: 50px;
-    display:flex;
-    text-decoration: none;
-}
+
